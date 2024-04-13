@@ -1,7 +1,14 @@
-title: APIs.io - Banking
-url: http://127.0.0.1:4000
+name: APIs.io - Banking
+description: The APIs that make banking possible, as well as a number of other related capabilities.
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+
+url: https://banking.apis.io
 
 node: banking
+
+keywords:
+
+- Banking
 
 permalink: /:categories/:year/:month/:day/:title/
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]

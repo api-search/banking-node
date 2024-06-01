@@ -25,6 +25,168 @@ apis:
       - type: APIs.io Search
         url: overlays/bunq-openapi-search.yml
     aid: bunq:bunq-api
+  - name: ' user'
+    description: Needs description.
+    tags: []
+    properties:
+      - type: OpenAPI
+        url: properties/user-openapi-original.yml
+    overlays:
+      - type: OpenAPI
+        url: overlays/user-openapi-search.yml
+  - name: ' activity-map-place-public'
+    description: Needs description.
+    tags: []
+    properties:
+      - type: OpenAPI
+        url: properties/activity-map-place-public-openapi-original.yml
+    overlays:
+      - type: OpenAPI
+        url: overlays/activity-map-place-public-openapi-search.yml
+  - name: ' activity-map-place-public'
+    description: Needs description.
+    tags: []
+    properties:
+      - type: OpenAPI
+        url: properties/activity-map-place-public-openapi-original.yml
+    overlays:
+      - type: OpenAPI
+        url: overlays/activity-map-place-public-openapi-search.yml
+  - name: ' attachment-public'
+    description: Needs description.
+    tags: []
+    properties:
+      - type: OpenAPI
+        url: properties/attachment-public-openapi-original.yml
+    overlays:
+      - type: OpenAPI
+        url: overlays/attachment-public-openapi-search.yml
+  - name: ' avatar'
+    description: Needs description.
+    tags: []
+    properties:
+      - type: OpenAPI
+        url: properties/avatar-openapi-original.yml
+    overlays:
+      - type: OpenAPI
+        url: overlays/avatar-openapi-search.yml
+  - name: ' device'
+    description: Needs description.
+    tags: []
+    properties:
+      - type: OpenAPI
+        url: properties/device-openapi-original.yml
+    overlays:
+      - type: OpenAPI
+        url: overlays/device-openapi-search.yml
+  - name: ' device-server'
+    description: Needs description.
+    tags: []
+    properties:
+      - type: OpenAPI
+        url: properties/device-server-openapi-original.yml
+    overlays:
+      - type: OpenAPI
+        url: overlays/device-server-openapi-search.yml
+  - name: ' installation'
+    description: Needs description.
+    tags: []
+    properties:
+      - type: OpenAPI
+        url: properties/installation-openapi-original.yml
+    overlays:
+      - type: OpenAPI
+        url: overlays/installation-openapi-search.yml
+  - name: ' user-company'
+    description: Needs description.
+    tags: []
+    properties:
+      - type: OpenAPI
+        url: properties/user-company-openapi-original.yml
+    overlays:
+      - type: OpenAPI
+        url: overlays/user-company-openapi-search.yml
+  - name: ' payment-service-provider-credential'
+    description: Needs description.
+    tags: []
+    properties:
+      - type: OpenAPI
+        url: properties/payment-service-provider-credential-openapi-original.yml
+    overlays:
+      - type: OpenAPI
+        url: overlays/payment-service-provider-credential-openapi-search.yml
+  - name: ' registry-import-splitwise-csv'
+    description: Needs description.
+    tags: []
+    properties:
+      - type: OpenAPI
+        url: properties/registry-import-splitwise-csv-openapi-original.yml
+    overlays:
+      - type: OpenAPI
+        url: overlays/registry-import-splitwise-csv-openapi-search.yml
+  - name: ' sandbox-user-company'
+    description: Needs description.
+    tags: []
+    properties:
+      - type: OpenAPI
+        url: properties/sandbox-user-company-openapi-original.yml
+    overlays:
+      - type: OpenAPI
+        url: overlays/sandbox-user-company-openapi-search.yml
+  - name: ' sandbox-user-person'
+    description: Needs description.
+    tags: []
+    properties:
+      - type: OpenAPI
+        url: properties/sandbox-user-person-openapi-original.yml
+    overlays:
+      - type: OpenAPI
+        url: overlays/sandbox-user-person-openapi-search.yml
+  - name: ' server-error'
+    description: Needs description.
+    tags: []
+    properties:
+      - type: OpenAPI
+        url: properties/server-error-openapi-original.yml
+    overlays:
+      - type: OpenAPI
+        url: overlays/server-error-openapi-search.yml
+  - name: ' session'
+    description: Needs description.
+    tags: []
+    properties:
+      - type: OpenAPI
+        url: properties/session-openapi-original.yml
+    overlays:
+      - type: OpenAPI
+        url: overlays/session-openapi-search.yml
+  - name: ' session-server'
+    description: Needs description.
+    tags: []
+    properties:
+      - type: OpenAPI
+        url: properties/session-server-openapi-original.yml
+    overlays:
+      - type: OpenAPI
+        url: overlays/session-server-openapi-search.yml
+  - name: ' user-payment-service-provider'
+    description: Needs description.
+    tags: []
+    properties:
+      - type: OpenAPI
+        url: properties/user-payment-service-provider-openapi-original.yml
+    overlays:
+      - type: OpenAPI
+        url: overlays/user-payment-service-provider-openapi-search.yml
+  - name: ' user-person'
+    description: Needs description.
+    tags: []
+    properties:
+      - type: OpenAPI
+        url: properties/user-person-openapi-original.yml
+    overlays:
+      - type: OpenAPI
+        url: overlays/user-person-openapi-search.yml
 maintainers:
   - FN: API Evangelist
     url: http://apievangelist.com

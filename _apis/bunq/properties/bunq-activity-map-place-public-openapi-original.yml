@@ -1,0 +1,17 @@
+openapi: 3.0.0
+info:
+  title: ' activity-map-place-public'
+  license:
+    name: Apache 2.0
+    url: https://www.apache.org/licenses/LICENSE-2.0.html
+  description: Needs description.
+paths:
+  /activity-map-place-public/{itemId}:
+    get:
+      tags:
+        - Id
+      summary: ''
+      description: Public endpoint for getting the place info.
+tags: []
+components:
+  schemas: {}

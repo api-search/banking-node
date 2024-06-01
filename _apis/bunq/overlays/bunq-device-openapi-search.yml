@@ -1,0 +1,368 @@
+openapi: 3.0.0
+info:
+  title: ' device'
+  license:
+    name: Apache 2.0
+    url: https://www.apache.org/licenses/LICENSE-2.0.html
+  description: Needs description.
+paths:
+  /device/{itemId}:
+    get:
+      tags:
+        - Id
+        - Additional
+        - Transaction
+        - Information
+        - Category
+        - User
+        - Defined
+        - Monetary
+        - Account
+        - Attachment
+        - Item
+        - Public
+        - Avatar
+        - Billing
+        - Contract
+        - Subscription
+        - Bunqme
+        - Fundraiser
+        - Profile
+        - Result
+        - Tab
+        - Response
+        - Oauth
+        - Client
+        - Callback
+        - Url
+        - Card
+        - Batch
+        - Replace
+        - Credit
+        - Debit
+        - Name
+        - Certificate
+        - Pinned
+        - Challenge
+        - Request
+        - Company
+        - Confirmation
+        - Of
+        - Funds
+        - Chat
+        - Conversation
+        - Content
+        - Export
+        - Annual
+        - Overview
+        - Rib
+        - Statement
+        - Customer
+        - Event
+        - Credential
+        - Password
+        - Ip
+        - Currency
+        - Cloud
+        - Beneficiary
+        - Requirement
+        - Payment
+        - Quote
+        - Conversion
+        - Auto
+        - Allocate
+        - Definition
+      summary: ''
+      description: Get a single Device. A Device is either a DevicePhone or a DeviceServer.
+  /device:
+    get:
+      tags:
+        - Id
+        - Additional
+        - Transaction
+        - Information
+        - Category
+        - User
+        - Defined
+        - Monetary
+        - Account
+        - Attachment
+        - Item
+        - Public
+        - Avatar
+        - Billing
+        - Contract
+        - Subscription
+        - Bunqme
+        - Fundraiser
+        - Profile
+        - Result
+        - Tab
+        - Response
+        - Oauth
+        - Client
+        - Callback
+        - Url
+        - Card
+        - Batch
+        - Replace
+        - Credit
+        - Debit
+        - Name
+        - Certificate
+        - Pinned
+        - Challenge
+        - Request
+        - Company
+        - Confirmation
+        - Of
+        - Funds
+        - Chat
+        - Conversation
+        - Content
+        - Export
+        - Annual
+        - Overview
+        - Rib
+        - Statement
+        - Customer
+        - Event
+        - Credential
+        - Password
+        - Ip
+        - Currency
+        - Cloud
+        - Beneficiary
+        - Requirement
+        - Payment
+        - Quote
+        - Conversion
+        - Auto
+        - Allocate
+        - Definition
+        - Device
+      summary: ''
+      description: >-
+        Get a collection of Devices. A Device is either a DevicePhone or a
+        DeviceServer.
+  /device-server:
+    post:
+      tags:
+        - Id
+        - Additional
+        - Transaction
+        - Information
+        - Category
+        - User
+        - Defined
+        - Monetary
+        - Account
+        - Attachment
+        - Item
+        - Public
+        - Avatar
+        - Billing
+        - Contract
+        - Subscription
+        - Bunqme
+        - Fundraiser
+        - Profile
+        - Result
+        - Tab
+        - Response
+        - Oauth
+        - Client
+        - Callback
+        - Url
+        - Card
+        - Batch
+        - Replace
+        - Credit
+        - Debit
+        - Name
+        - Certificate
+        - Pinned
+        - Challenge
+        - Request
+        - Company
+        - Confirmation
+        - Of
+        - Funds
+        - Chat
+        - Conversation
+        - Content
+        - Export
+        - Annual
+        - Overview
+        - Rib
+        - Statement
+        - Customer
+        - Event
+        - Credential
+        - Password
+        - Ip
+        - Currency
+        - Cloud
+        - Beneficiary
+        - Requirement
+        - Payment
+        - Quote
+        - Conversion
+        - Auto
+        - Allocate
+        - Definition
+        - Device
+        - Server
+      summary: ''
+      description: >-
+        Create a new DeviceServer providing the installation token in the header
+        and signing the request with the private part of the key you used to
+        create the installation. The API Key that you are using will be bound to
+        the IP address of the DeviceServer which you have
+        created.<br/><br/>Using a Wildcard API Key gives you the freedom to make
+        API calls even if the IP address has changed after the POST
+        device-server.<br/><br/>Find out more at this link <a
+        href="https:/bunq.com/en/apikey-dynamic-ip"
+        target="_blank">https:/bunq.com/en/apikey-dynamic-ip</a>.
+    get:
+      tags:
+        - Id
+        - Additional
+        - Transaction
+        - Information
+        - Category
+        - User
+        - Defined
+        - Monetary
+        - Account
+        - Attachment
+        - Item
+        - Public
+        - Avatar
+        - Billing
+        - Contract
+        - Subscription
+        - Bunqme
+        - Fundraiser
+        - Profile
+        - Result
+        - Tab
+        - Response
+        - Oauth
+        - Client
+        - Callback
+        - Url
+        - Card
+        - Batch
+        - Replace
+        - Credit
+        - Debit
+        - Name
+        - Certificate
+        - Pinned
+        - Challenge
+        - Request
+        - Company
+        - Confirmation
+        - Of
+        - Funds
+        - Chat
+        - Conversation
+        - Content
+        - Export
+        - Annual
+        - Overview
+        - Rib
+        - Statement
+        - Customer
+        - Event
+        - Credential
+        - Password
+        - Ip
+        - Currency
+        - Cloud
+        - Beneficiary
+        - Requirement
+        - Payment
+        - Quote
+        - Conversion
+        - Auto
+        - Allocate
+        - Definition
+        - Device
+        - Server
+      summary: ''
+      description: Get a collection of all the DeviceServers you have created.
+  /device-server/{itemId}:
+    get:
+      tags:
+        - Id
+        - Additional
+        - Transaction
+        - Information
+        - Category
+        - User
+        - Defined
+        - Monetary
+        - Account
+        - Attachment
+        - Item
+        - Public
+        - Avatar
+        - Billing
+        - Contract
+        - Subscription
+        - Bunqme
+        - Fundraiser
+        - Profile
+        - Result
+        - Tab
+        - Response
+        - Oauth
+        - Client
+        - Callback
+        - Url
+        - Card
+        - Batch
+        - Replace
+        - Credit
+        - Debit
+        - Name
+        - Certificate
+        - Pinned
+        - Challenge
+        - Request
+        - Company
+        - Confirmation
+        - Of
+        - Funds
+        - Chat
+        - Conversation
+        - Content
+        - Export
+        - Annual
+        - Overview
+        - Rib
+        - Statement
+        - Customer
+        - Event
+        - Credential
+        - Password
+        - Ip
+        - Currency
+        - Cloud
+        - Beneficiary
+        - Requirement
+        - Payment
+        - Quote
+        - Conversion
+        - Auto
+        - Allocate
+        - Definition
+        - Device
+        - Server
+      summary: ''
+      description: Get one of your DeviceServers.
+tags: []
+components:
+  schemas: {}

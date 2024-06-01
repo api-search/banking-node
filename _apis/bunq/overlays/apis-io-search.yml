@@ -25,7 +25,7 @@ apis:
       - type: APIs.io Search
         url: overlays/bunq-openapi-search.yml
     aid: bunq:bunq-api
-  - name: ' user'
+  - name: ' Bunq User API'
     description: Needs description.
     tags: []
     properties:
@@ -34,7 +34,7 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/user-openapi-search.yml
-  - name: ' activity-map-place-public'
+  - name: Bunq Activity Map Public Place API
     description: Needs description.
     tags: []
     properties:
@@ -43,7 +43,7 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/activity-map-place-public-openapi-search.yml
-  - name: ' activity-map-place-public'
+  - name: Bunq Activity Map Public Place API
     description: Needs description.
     tags: []
     properties:
@@ -52,7 +52,7 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/activity-map-place-public-openapi-search.yml
-  - name: ' attachment-public'
+  - name: Bunq Public Attachment API
     description: Needs description.
     tags: []
     properties:
@@ -61,7 +61,7 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/attachment-public-openapi-search.yml
-  - name: ' avatar'
+  - name: Bunq Avatar API
     description: Needs description.
     tags: []
     properties:
@@ -70,7 +70,7 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/avatar-openapi-search.yml
-  - name: ' device'
+  - name: ' Bunq Device API'
     description: Needs description.
     tags: []
     properties:
@@ -79,7 +79,7 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/device-openapi-search.yml
-  - name: ' device-server'
+  - name: Bunq Device Server APi
     description: Needs description.
     tags: []
     properties:
@@ -88,7 +88,7 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/device-server-openapi-search.yml
-  - name: ' installation'
+  - name: ' Bunq Installation API'
     description: Needs description.
     tags: []
     properties:
@@ -97,7 +97,7 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/installation-openapi-search.yml
-  - name: ' user-company'
+  - name: Bunq User Company API
     description: Needs description.
     tags: []
     properties:
@@ -106,7 +106,7 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/user-company-openapi-search.yml
-  - name: ' payment-service-provider-credential'
+  - name: Bunq Payment Service Provider Credential API
     description: Needs description.
     tags: []
     properties:

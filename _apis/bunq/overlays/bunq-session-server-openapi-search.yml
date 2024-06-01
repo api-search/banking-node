@@ -1,0 +1,137 @@
+openapi: 3.0.0
+info:
+  title: ' session-server'
+  license:
+    name: Apache 2.0
+    url: https://www.apache.org/licenses/LICENSE-2.0.html
+  description: Needs description.
+paths:
+  /session-server:
+    post:
+      tags:
+        - Id
+        - Additional
+        - Transaction
+        - Information
+        - Category
+        - User
+        - Defined
+        - Monetary
+        - Account
+        - Attachment
+        - Item
+        - Public
+        - Avatar
+        - Billing
+        - Contract
+        - Subscription
+        - Bunqme
+        - Fundraiser
+        - Profile
+        - Result
+        - Tab
+        - Response
+        - Oauth
+        - Client
+        - Callback
+        - Url
+        - Card
+        - Batch
+        - Replace
+        - Credit
+        - Debit
+        - Name
+        - Certificate
+        - Pinned
+        - Challenge
+        - Request
+        - Company
+        - Confirmation
+        - Of
+        - Funds
+        - Chat
+        - Conversation
+        - Content
+        - Export
+        - Annual
+        - Overview
+        - Rib
+        - Statement
+        - Customer
+        - Event
+        - Credential
+        - Password
+        - Ip
+        - Currency
+        - Cloud
+        - Beneficiary
+        - Requirement
+        - Payment
+        - Quote
+        - Conversion
+        - Auto
+        - Allocate
+        - Definition
+        - Device
+        - Server
+        - Draft
+        - Csv
+        - Pdf
+        - Feature
+        - Announcement
+        - Generated
+        - Cvc2
+        - Ideal
+        - Merchant
+        - Insight
+        - Preference
+        - Date
+        - Insights
+        - Search
+        - Installation
+        - Instance
+        - Invoice
+        - Legal
+        - Limit
+        - Mastercard
+        - Action
+        - Bank
+        - External
+        - Savings
+        - Joint
+        - Adyen
+        - Note
+        - Switch
+        - Service
+        - Inquiry
+        - Schedule
+        - Sofort
+        - Whitelist
+        - Text
+        - Notification
+        - Filter
+        - Email
+        - Failure
+        - Push
+        - Provider
+        - Issuer
+        - Registry
+        - Import
+        - Splitwise
+        - Settlement
+        - Sandbox
+        - Person
+        - Error
+        - Key
+        - Session
+      summary: ''
+      description: >-
+        Create a new session for a DeviceServer. Provide the Installation token
+        in the "X-Bunq-Client-Authentication" header. And don't forget to create
+        the "X-Bunq-Client-Signature" header. The response contains a Session
+        token that should be used for as the "X-Bunq-Client-Authentication"
+        header for all future API calls. The ip address making this call needs
+        to match the ip address bound to your API key.
+tags: []
+components:
+  schemas: {}

@@ -30,10 +30,11 @@ apis:
     tags: []
     properties:
       - type: OpenAPI
-        url: properties/user-openapi-original.yml
+        url: https://doc.bunq.com/#/user
     overlays:
       - type: OpenAPI
         url: overlays/user-openapi-search.yml
+    humanURL: https://doc.bunq.com/#/user
   - name: Bunq Activity Map Public Place API
     description: Needs description.
     tags: []
@@ -115,7 +116,7 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/payment-service-provider-credential-openapi-search.yml
-  - name: ' registry-import-splitwise-csv'
+  - name: ' Bunq Registry Import Splitwise API'
     description: Needs description.
     tags: []
     properties:
@@ -124,7 +125,7 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/registry-import-splitwise-csv-openapi-search.yml
-  - name: ' sandbox-user-company'
+  - name: ' Bunq User Company Sandbox API'
     description: Needs description.
     tags: []
     properties:
@@ -133,7 +134,7 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/sandbox-user-company-openapi-search.yml
-  - name: ' sandbox-user-person'
+  - name: Bunq User Person Sandbox API
     description: Needs description.
     tags: []
     properties:
@@ -142,7 +143,7 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/sandbox-user-person-openapi-search.yml
-  - name: ' server-error'
+  - name: Bunq Server Error API
     description: Needs description.
     tags: []
     properties:
@@ -151,7 +152,7 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/server-error-openapi-search.yml
-  - name: ' session'
+  - name: Bunq Session API
     description: Needs description.
     tags: []
     properties:
@@ -160,7 +161,7 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/session-openapi-search.yml
-  - name: ' session-server'
+  - name: ' Bunq Session Server API'
     description: Needs description.
     tags: []
     properties:
@@ -169,7 +170,7 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/session-server-openapi-search.yml
-  - name: ' user-payment-service-provider'
+  - name: ' Bunq User Payment Service Provider API'
     description: Needs description.
     tags: []
     properties:
@@ -178,7 +179,7 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/user-payment-service-provider-openapi-search.yml
-  - name: ' user-person'
+  - name: Bunq User Person API
     description: Needs description.
     tags: []
     properties:

@@ -1,0 +1,61 @@
+openapi: 3.0.0
+info:
+  title: ' avatar'
+  license:
+    name: Apache 2.0
+    url: https://www.apache.org/licenses/LICENSE-2.0.html
+  description: Needs description.
+paths:
+  /avatar:
+    post:
+      tags:
+        - Id
+        - Additional
+        - Transaction
+        - Information
+        - Category
+        - User
+        - Defined
+        - Monetary
+        - Account
+        - Attachment
+        - Item
+        - Public
+        - Avatar
+      summary: ''
+      description: >-
+        Avatars are public images used to represent you or your company. Avatars
+        are used to represent users, monetary accounts and cash registers.
+        Avatars cannot be deleted, only replaced. Avatars can be updated after
+        uploading the image you would like to use through AttachmentPublic.
+        Using the attachment_public_uuid which is returned you can update your
+        Avatar. Avatars used for cash registers and company accounts will be
+        reviewed by bunq.
+  /avatar/{itemId}:
+    get:
+      tags:
+        - Id
+        - Additional
+        - Transaction
+        - Information
+        - Category
+        - User
+        - Defined
+        - Monetary
+        - Account
+        - Attachment
+        - Item
+        - Public
+        - Avatar
+      summary: ''
+      description: >-
+        Avatars are public images used to represent you or your company. Avatars
+        are used to represent users, monetary accounts and cash registers.
+        Avatars cannot be deleted, only replaced. Avatars can be updated after
+        uploading the image you would like to use through AttachmentPublic.
+        Using the attachment_public_uuid which is returned you can update your
+        Avatar. Avatars used for cash registers and company accounts will be
+        reviewed by bunq.
+tags: []
+components:
+  schemas: {}

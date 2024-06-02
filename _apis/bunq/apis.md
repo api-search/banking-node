@@ -34,7 +34,54 @@ apis:
         url: overlays/bunq-openapi-api-evangelist-ratings.yml
       - type: APIs.io Search
         url: overlays/bunq-openapi-search.yml
-    aid: bunq:bunq-api  
+    aid: bunq:bunq-api
+  - name: ' activity-map-place-public/{itemId}/'
+    description: Needs description.
+    tags: []
+    properties:
+      - type: OpenAPI
+        url: properties/activity-map-place-public-itemid--openapi-original.yml
+    overlays:
+      - type: OpenAPI
+        url: overlays/activity-map-place-public-itemid--openapi-search.yml
+  - name: ' user/{userID}/additional-transaction-information-category'
+    description: Needs description.
+    tags: []
+    properties:
+      - type: OpenAPI
+        url: >-
+          properties/user-userid-additional-transaction-information-category-openapi-original.yml
+    overlays:
+      - type: OpenAPI
+        url: >-
+          overlays/user-userid-additional-transaction-information-category-openapi-search.yml
+  - name: ' user/{userID}/monetary-account'
+    description: Needs description.
+    tags: []
+    properties:
+      - type: OpenAPI
+        url: properties/user-userid-monetary-account-openapi-original.yml
+    overlays:
+      - type: OpenAPI
+        url: overlays/user-userid-monetary-account-openapi-search.yml
+  - name: ' user/{userID}/attachment'
+    description: Needs description.
+    tags: []
+    properties:
+      - type: OpenAPI
+        url: properties/user-userid-attachment-openapi-original.yml
+    overlays:
+      - type: OpenAPI
+        url: overlays/user-userid-attachment-openapi-search.yml
+  - name: ' attachment-public/'
+    description: Needs description.
+    tags: []
+    properties:
+      - type: OpenAPI
+        url: properties/attachment-public--openapi-original.yml
+    overlays:
+      - type: OpenAPI
+        url: overlays/attachment-public--openapi-search.yml
 common:
   - type: Portal
     url: https://developer.bunq.com/en/

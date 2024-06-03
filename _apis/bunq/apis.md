@@ -1,4 +1,3 @@
----
 name: Bunq
 description: >-
   We offer mobile banking that makes life easy—wherever, whenever. Join us and
@@ -73,6 +72,54 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/bunq-user-userid-attachment-openapi-search.yml
+  - name: ' avatar/'
+    description: Needs description.
+    tags: []
+    properties:
+      - type: OpenAPI
+        url: properties/bunq-avatar--openapi-original.yml
+    overlays:
+      - type: OpenAPI
+        url: overlays/bunq-avatar--openapi-search.yml
+  - name: ' user/{userID}/billing-contract-subscription'
+    description: Needs description.
+    tags: []
+    properties:
+      - type: OpenAPI
+        url: >-
+          properties/bunq-user-userid-billing-contract-subscription-openapi-original.yml
+    overlays:
+      - type: OpenAPI
+        url: >-
+          overlays/bunq-user-userid-billing-contract-subscription-openapi-search.yml
+  - name: ' user/{userID}/bunqme-fundraiser-profile'
+    description: Needs description.
+    tags: []
+    properties:
+      - type: OpenAPI
+        url: >-
+          properties/bunq-user-userid-bunqme-fundraiser-profile-openapi-original.yml
+    overlays:
+      - type: OpenAPI
+        url: overlays/bunq-user-userid-bunqme-fundraiser-profile-openapi-search.yml
+  - name: ' user/{userID}/oauth-client'
+    description: Needs description.
+    tags: []
+    properties:
+      - type: OpenAPI
+        url: properties/bunq-user-userid-oauth-client-openapi-original.yml
+    overlays:
+      - type: OpenAPI
+        url: overlays/bunq-user-userid-oauth-client-openapi-search.yml
+  - name: ' user/{userID}/card'
+    description: Needs description.
+    tags: []
+    properties:
+      - type: OpenAPI
+        url: properties/bunq-user-userid-card-openapi-original.yml
+    overlays:
+      - type: OpenAPI
+        url: overlays/bunq-user-userid-card-openapi-search.yml
 common:
   - type: Portal
     url: https://developer.bunq.com/en/
@@ -115,4 +162,5 @@ overlays:
   - type: API Evangelist Ratings
     url: overlays/apis-io-search.yml
 aid: bunq
+
 ---

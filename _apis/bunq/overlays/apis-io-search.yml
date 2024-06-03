@@ -146,54 +146,78 @@ apis:
         url: overlays/bunq-user-userid-attachment-openapi-search.yml
     humanURL: https://doc.bunq.com/#/attachment
     baseURL: https://public-api.sandbox.bunq.com/
-  - name: ' avatar/'
-    description: Needs description.
+  - name: Bunq Avatar API
+    description: >-
+      Avatars are public images used to represent you or your company. Avatars
+      are used to represent users, monetary accounts and cash registers. Avatars
+      cannot be deleted, only replaced. Avatars can be updated after uploading
+      the image you would like to use through AttachmentPublic. Using the
+      attachment_public_uuid which is returned you can update your Avatar.
+      Avatars used for cash registers and company accounts will be reviewed by
+      bunq.
     tags: []
     properties:
       - type: OpenAPI
         url: properties/bunq-avatar--openapi-original.yml
+      - type: Documentation
+        url: https://doc.bunq.com/
     overlays:
       - type: OpenAPI
         url: overlays/bunq-avatar--openapi-search.yml
-  - name: ' user/{userID}/billing-contract-subscription'
-    description: Needs description.
+    humanURL: https://doc.bunq.com/#/avatar
+  - name: Bunq Billing Contract Subscription API
+    description: Manage all subscription billing contract for the authenticated user.
     tags: []
     properties:
       - type: OpenAPI
         url: >-
           properties/bunq-user-userid-billing-contract-subscription-openapi-original.yml
+      - type: Documentation
+        url: https://doc.bunq.com/
     overlays:
       - type: OpenAPI
         url: >-
           overlays/bunq-user-userid-billing-contract-subscription-openapi-search.yml
-  - name: ' user/{userID}/bunqme-fundraiser-profile'
-    description: Needs description.
+    humanURL: >-
+      https://doc.bunq.com/#/billing-contract-subscription/List_all_BillingContractSubscription_for_User
+  - name: Bunq Fundraiser Profile
+    description: The /me profile for the Bunq user.
     tags: []
     properties:
       - type: OpenAPI
         url: >-
           properties/bunq-user-userid-bunqme-fundraiser-profile-openapi-original.yml
+      - type: Documentation
+        url: https://doc.bunq.com/
     overlays:
       - type: OpenAPI
         url: overlays/bunq-user-userid-bunqme-fundraiser-profile-openapi-search.yml
-  - name: ' user/{userID}/oauth-client'
-    description: Needs description.
+    humanURL: >-
+      https://doc.bunq.com/#/bunqme-fundraiser-profile/READ_BunqmeFundraiserProfile_for_User
+  - name: Bunq Oauth Client API
+    description: For managing OAuth clients through an API.
     tags: []
     properties:
       - type: OpenAPI
         url: properties/bunq-user-userid-oauth-client-openapi-original.yml
+      - type: Documentation
+        url: https://doc.bunq.com/
     overlays:
       - type: OpenAPI
         url: overlays/bunq-user-userid-oauth-client-openapi-search.yml
-  - name: ' user/{userID}/card'
-    description: Needs description.
+    humanURL: https://doc.bunq.com/#/
+  - name: Bunq Card API
+    description: Managing cards and transactions made via cards.
     tags: []
     properties:
       - type: OpenAPI
         url: properties/bunq-user-userid-card-openapi-original.yml
+      - type: Documentation
+        url: https://doc.bunq.com/
     overlays:
       - type: OpenAPI
         url: overlays/bunq-user-userid-card-openapi-search.yml
+    humanURL: https://doc.bunq.com/#/card
 common:
   - type: Portal
     url: https://developer.bunq.com/en/

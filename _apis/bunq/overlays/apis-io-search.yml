@@ -34,7 +34,7 @@ apis:
       - type: APIs.io Search
         url: overlays/bunq-openapi-search.yml
     aid: bunq:bunq-api
-  - name: ' activity-map-place-public/{itemId}/'
+  - name: Activity Map Place
     description: Needs description.
     tags: []
     properties:
@@ -70,7 +70,7 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/activity-map-place-public-itemid--openapi-search.yml
-  - name: ' user/{userID}/additional-transaction-information-category'
+  - name: Bunq Transaction Categories API
     description: Needs description.
     tags: []
     properties:
@@ -125,7 +125,7 @@ apis:
       - type: OpenAPI
         url: >-
           overlays/user-userid-additional-transaction-information-category-openapi-search.yml
-  - name: ' user/{userID}/monetary-account'
+  - name: Bunq Monetary Account API
     description: Needs description.
     tags: []
     properties:
@@ -143,7 +143,7 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/user-userid-monetary-account-openapi-search.yml
-  - name: ' user/{userID}/attachment'
+  - name: Bunq Attachments API
     description: Needs description.
     tags: []
     properties:

@@ -1,4 +1,3 @@
----
 name: Bunq
 description: >-
   We offer mobile banking that makes life easy—wherever, whenever. Join us and
@@ -267,4 +266,5 @@ overlays:
   - type: API Evangelist Ratings
     url: overlays/apis-io-search.yml
 aid: bunq
+
 ---

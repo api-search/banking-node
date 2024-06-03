@@ -51,8 +51,10 @@ paths:
   /user/{userID}/attachment/{itemId}:
     get:
       tags:
-        - - - - attachment
-      summary: ''
+        - Attachments
+        - Items
+        - Users
+      summary: Retrieve User User Id Attachment Item Id
       operationId: READ_Attachment_for_User
       description: >-
         Get a specific attachment. The header of the response contains the
@@ -100,8 +102,10 @@ paths:
   /user/{userID}/attachment/{attachmentID}/content:
     get:
       tags:
-        - - - - content
-      summary: ''
+        - Attachments
+        - Content
+        - Users
+      summary: Retrieve User User Id Attachment Attachment Id Content
       operationId: List_all_Content_for_User_Attachment
       description: Get the raw content of a specific attachment.
       parameters:

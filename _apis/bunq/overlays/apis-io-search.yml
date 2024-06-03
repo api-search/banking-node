@@ -34,8 +34,8 @@ apis:
       - type: APIs.io Search
         url: overlays/bunq-openapi-search.yml
     aid: bunq:bunq-api
-  - name: Activity Map Place
-    description: Needs description.
+  - name: Bunq Activity Map Place
+    description: Managing activity map for a user account.
     tags: []
     properties:
       - type: OpenAPI
@@ -146,6 +146,54 @@ apis:
         url: overlays/bunq-user-userid-attachment-openapi-search.yml
     humanURL: https://doc.bunq.com/#/attachment
     baseURL: https://public-api.sandbox.bunq.com/
+  - name: ' avatar/'
+    description: Needs description.
+    tags: []
+    properties:
+      - type: OpenAPI
+        url: properties/bunq-avatar--openapi-original.yml
+    overlays:
+      - type: OpenAPI
+        url: overlays/bunq-avatar--openapi-search.yml
+  - name: ' user/{userID}/billing-contract-subscription'
+    description: Needs description.
+    tags: []
+    properties:
+      - type: OpenAPI
+        url: >-
+          properties/bunq-user-userid-billing-contract-subscription-openapi-original.yml
+    overlays:
+      - type: OpenAPI
+        url: >-
+          overlays/bunq-user-userid-billing-contract-subscription-openapi-search.yml
+  - name: ' user/{userID}/bunqme-fundraiser-profile'
+    description: Needs description.
+    tags: []
+    properties:
+      - type: OpenAPI
+        url: >-
+          properties/bunq-user-userid-bunqme-fundraiser-profile-openapi-original.yml
+    overlays:
+      - type: OpenAPI
+        url: overlays/bunq-user-userid-bunqme-fundraiser-profile-openapi-search.yml
+  - name: ' user/{userID}/oauth-client'
+    description: Needs description.
+    tags: []
+    properties:
+      - type: OpenAPI
+        url: properties/bunq-user-userid-oauth-client-openapi-original.yml
+    overlays:
+      - type: OpenAPI
+        url: overlays/bunq-user-userid-oauth-client-openapi-search.yml
+  - name: ' user/{userID}/card'
+    description: Needs description.
+    tags: []
+    properties:
+      - type: OpenAPI
+        url: properties/bunq-user-userid-card-openapi-original.yml
+    overlays:
+      - type: OpenAPI
+        url: overlays/bunq-user-userid-card-openapi-search.yml
 common:
   - type: Portal
     url: https://developer.bunq.com/en/

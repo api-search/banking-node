@@ -36,8 +36,12 @@ paths:
   /user/{userID}/additional-transaction-information-category:
     get:
       tags:
-        - - - - additional-transaction-information-category
-      summary: ''
+        - Additional
+        - Categories
+        - Information
+        - Transactions
+        - Users
+      summary: Retrieve Transaction Information Category
       operationId: List_all_AdditionalTransactionInformationCategory_for_User
       description: Get the available categories.
       parameters:
@@ -76,8 +80,13 @@ paths:
   /user/{userID}/additional-transaction-information-category-user-defined:
     post:
       tags:
-        - - - - additional-transaction-information-category-user-defined
-      summary: ''
+        - Additional
+        - Categories
+        - Defined
+        - Information
+        - Transactions
+        - Users
+      summary: Create Transaction Information Category
       operationId: CREATE_AdditionalTransactionInformationCategoryUserDefined_for_User
       description: Manage user-defined categories.
       parameters:

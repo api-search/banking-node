@@ -155,7 +155,9 @@ apis:
       attachment_public_uuid which is returned you can update your Avatar.
       Avatars used for cash registers and company accounts will be reviewed by
       bunq.
-    tags: []
+    tags:
+      - Avatars
+      - Items
     properties:
       - type: OpenAPI
         url: properties/bunq-avatar--openapi-original.yml
@@ -167,7 +169,11 @@ apis:
     humanURL: https://doc.bunq.com/#/avatar
   - name: Bunq Billing Contract Subscription API
     description: Manage all subscription billing contract for the authenticated user.
-    tags: []
+    tags:
+      - Billing
+      - Contracts
+      - Subscriptions
+      - Users
     properties:
       - type: OpenAPI
         url: >-
@@ -182,7 +188,11 @@ apis:
       https://doc.bunq.com/#/billing-contract-subscription/List_all_BillingContractSubscription_for_User
   - name: Bunq Fundraiser Profile API
     description: The /me profile for the Bunq user.
-    tags: []
+    tags:
+      - Fundraiser
+      - Items
+      - Profiles
+      - Users
     properties:
       - type: OpenAPI
         url: >-
@@ -196,7 +206,13 @@ apis:
       https://doc.bunq.com/#/bunqme-fundraiser-profile/READ_BunqmeFundraiserProfile_for_User
   - name: Bunq Oauth Client API
     description: For managing OAuth clients through an API.
-    tags: []
+    tags:
+      - Callback
+      - Clients
+      - Items
+      - OAuth
+      - URL
+      - Users
     properties:
       - type: OpenAPI
         url: properties/bunq-user-userid-oauth-client-openapi-original.yml
@@ -208,7 +224,21 @@ apis:
     humanURL: https://doc.bunq.com/#/
   - name: Bunq Card API
     description: Managing cards and transactions made via cards.
-    tags: []
+    tags:
+      - Cards
+      - Items
+      - Users
+      - Batches
+      - Replace
+      - Credit
+      - Debit
+      - Names
+      - Content
+      - Exports
+      - Statements
+      - CSV
+      - PDF
+      - Generated
     properties:
       - type: OpenAPI
         url: properties/bunq-user-userid-card-openapi-original.yml
@@ -219,71 +249,122 @@ apis:
         url: overlays/bunq-user-userid-card-openapi-search.yml
     humanURL: https://doc.bunq.com/#/card
   - name: Bunq Certificate Pinning API
-    description: Needs description.
-    tags: []
+    description: Managing the pinned certificates for a user.
+    tags:
+      - Certificates
+      - Pinned
+      - Users
+      - Items
     properties:
       - type: OpenAPI
         url: properties/bunq-user-userid-certificate-pinned-openapi-original.yml
+      - type: Documentation
+        url: https://doc.bunq.com/
     overlays:
       - type: OpenAPI
         url: overlays/bunq-user-userid-certificate-pinned-openapi-search.yml
+    humanURL: https://doc.bunq.com/#/certificate-pinned
   - name: Bunq Challenge Request API
-    description: Needs description.
-    tags: []
+    description: Managing the challenge requests for a user.
+    tags:
+      - Challenges
+      - Items
+      - Users
     properties:
       - type: OpenAPI
         url: properties/bunq-user-userid-challenge-request-openapi-original.yml
+      - type: Documentation
+        url: https://doc.bunq.com/
     overlays:
       - type: OpenAPI
         url: overlays/bunq-user-userid-challenge-request-openapi-search.yml
+    humanURL: https://doc.bunq.com/#/challenge-request
   - name: Bunq Company API
-    description: Needs description.
-    tags: []
+    description: Managing details of an accounts company information.
+    tags:
+      - Companies
+      - Users
+      - Items
     properties:
       - type: OpenAPI
         url: properties/bunq-user-userid-company-openapi-original.yml
+      - type: Documentation
+        url: https://doc.bunq.com/
     overlays:
       - type: OpenAPI
         url: overlays/bunq-user-userid-company-openapi-search.yml
+    humanURL: https://doc.bunq.com/#/company
   - name: Bunq Confirmation Of Funds API
-    description: Needs description.
-    tags: []
+    description: Used to confirm availability of funds on an account.
+    tags:
+      - Confirmation
+      - Funds
+      - Users
     properties:
       - type: OpenAPI
         url: properties/bunq-user-userid-confirmation-of-funds-openapi-original.yml
+      - type: Documentation
+        url: https://doc.bunq.com/
     overlays:
       - type: OpenAPI
         url: overlays/bunq-user-userid-confirmation-of-funds-openapi-search.yml
-  - name: Bunq User Chat Conversation API
-    description: Needs description.
-    tags: []
+    humanURL: >-
+      https://doc.bunq.com/#/confirmation-of-funds/CREATE_ConfirmationOfFunds_for_User
+  - name: Bunq Chat Conversation API
+    description: Managing the chat conversations for a user account.
+    tags:
+      - Attachments
+      - Chat
+      - Content
+      - Conversations
+      - Users
     properties:
       - type: OpenAPI
         url: properties/bunq-user-userid-chat-conversation-openapi-original.yml
+      - type: Documentation
+        url: https://doc.bunq.com/
     overlays:
       - type: OpenAPI
         url: overlays/bunq-user-userid-chat-conversation-openapi-search.yml
-  - name: Bunq Attachment Public Attachment Public Uuid Content API
-    description: Needs description.
-    tags: []
+    humanURL: >-
+      https://doc.bunq.com/#/content/List_all_Content_for_User_ChatConversation_Attachment
+  - name: Bunq Attachment Content API
+    description: Used to manage the attachment content for an A/PI.
+    tags:
+      - Attachments
+      - Content
+      - Public
     properties:
       - type: OpenAPI
         url: >-
           properties/bunq-attachment-public-attachment-publicuuid-content-openapi-original.yml
+      - type: Documentation
+        url: https://doc.bunq.com/
     overlays:
       - type: OpenAPI
         url: >-
           overlays/bunq-attachment-public-attachment-publicuuid-content-openapi-search.yml
-  - name: Bunq User Export Annual Overview API
-    description: Needs description.
-    tags: []
+    humanURL: https://doc.bunq.com/#/content
+  - name: Bunq Export Annual Overview API
+    description: Used to retrieve the raw content of an annual overview.
+    tags:
+      - Annual
+      - Content
+      - Exports
+      - Overview
+      - Users
+      - Items
     properties:
       - type: OpenAPI
         url: >-
           properties/bunq-user-userid-export-annual-overview-openapi-original.yml
+      - type: Documentation
+        url: https://doc.bunq.com/
     overlays:
       - type: OpenAPI
         url: overlays/bunq-user-userid-export-annual-overview-openapi-search.yml
+    humanURL: >-
+      https://doc.bunq.com/#/content/List_all_Content_for_User_ExportAnnualOverview
   - name: Bunq User Credential Password Ip API
     description: Needs description.
     tags: []

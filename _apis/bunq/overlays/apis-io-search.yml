@@ -218,7 +218,7 @@ apis:
       - type: OpenAPI
         url: overlays/bunq-user-userid-card-openapi-search.yml
     humanURL: https://doc.bunq.com/#/card
-  - name: ' user/{userID}/certificate-pinned'
+  - name: Bunq Certificate Pinning API
     description: Needs description.
     tags: []
     properties:
@@ -227,7 +227,7 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/bunq-user-userid-certificate-pinned-openapi-search.yml
-  - name: ' user/{userID}/challenge-request'
+  - name: Bunq Challenge Request API
     description: Needs description.
     tags: []
     properties:
@@ -236,7 +236,7 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/bunq-user-userid-challenge-request-openapi-search.yml
-  - name: ' user/{userID}/company'
+  - name: Bunq Company API
     description: Needs description.
     tags: []
     properties:
@@ -245,7 +245,7 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/bunq-user-userid-company-openapi-search.yml
-  - name: ' user/{userID}/confirmation-of-funds'
+  - name: Bunq Confirmation of Funds
     description: Needs description.
     tags: []
     properties:

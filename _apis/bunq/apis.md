@@ -40,39 +40,39 @@ apis:
     tags: []
     properties:
       - type: OpenAPI
-        url: properties/activity-map-place-public-itemid-openapi-original.yml
+        url: properties/bunq-activity-map-place-public-itemid-openapi-original.yml
     overlays:
       - type: OpenAPI
-        url: overlays/activity-map-place-public-itemid-openapi-search.yml
+        url: overlays/bunq-activity-map-place-public-itemid-openapi-search.yml
   - name: Bunq Transaction Categories API
     description: Needs description.
     tags: []
     properties:
       - type: OpenAPI
         url: >-
-          properties/user-userid-additional-transaction-information-category-openapi-original.yml
+          properties/bunq-user-userid-additional-transaction-information-category-openapi-original.yml
     overlays:
       - type: OpenAPI
         url: >-
-          overlays/user-userid-additional-transaction-information-category-openapi-search.yml
+          overlays/bunq-user-userid-additional-transaction-information-category-openapi-search.yml
   - name: Bunq Monetary Account API
     description: Needs description.
     tags: []
     properties:
       - type: OpenAPI
-        url: properties/user-userid-monetary-account-openapi-original.yml
+        url: properties/bunq-user-userid-monetary-account-openapi-original.yml
     overlays:
       - type: OpenAPI
-        url: overlays/user-userid-monetary-account-openapi-search.yml
+        url: overlays/bunq-user-userid-monetary-account-openapi-search.yml
   - name: Bunq Attachments API
     description: Needs description.
     tags: []
     properties:
       - type: OpenAPI
-        url: properties/user-userid-attachment-openapi-original.yml
+        url: properties/bunq-user-userid-attachment-openapi-original.yml
     overlays:
       - type: OpenAPI
-        url: overlays/user-userid-attachment-openapi-search.yml
+        url: overlays/bunq-user-userid-attachment-openapi-search.yml
 common:
   - type: Portal
     url: https://developer.bunq.com/en/

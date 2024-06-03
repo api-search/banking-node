@@ -40,12 +40,22 @@ apis:
     properties:
       - type: OpenAPI
         url: properties/bunq-activity-map-place-public-itemid-openapi-original.yml
+      - type: Documentation
+        url: https://doc.bunq.com/
     overlays:
       - type: OpenAPI
         url: overlays/bunq-activity-map-place-public-itemid-openapi-search.yml
+    baseURL: https://public-api.sandbox.bunq.com/
+    humanURL: https://doc.bunq.com/#/activity-map-place-public
   - name: Bunq Transaction Categories API
-    description: Needs description.
-    tags: []
+    description: Manage additional information transactional categories.
+    tags:
+      - Additional
+      - Categories
+      - Information
+      - Transactions
+      - Users
+      - Defined
     properties:
       - type: OpenAPI
         url: >-
@@ -54,24 +64,88 @@ apis:
       - type: OpenAPI
         url: >-
           overlays/bunq-user-userid-additional-transaction-information-category-openapi-search.yml
+    baseURL: https://public-api.sandbox.bunq.com/
+    humanURL: https://doc.bunq.com/#/additional-transaction-information-category
   - name: Bunq Monetary Account API
-    description: Needs description.
-    tags: []
+    description: Managing different types of monetary accounts.
+    tags:
+      - Accounts
+      - Actions
+      - Adyen
+      - Allocate
+      - Attachments
+      - Auto
+      - Bank
+      - Batches
+      - Cards
+      - Cloud
+      - Content
+      - Conversions
+      - Currencies
+      - Customers
+      - Definitions
+      - Draft
+      - Eal
+      - Events
+      - Exports
+      - External
+      - Filter
+      - Fundraiser
+      - Ideal
+      - Inquiries
+      - Instances
+      - Invite
+      - Invoices
+      - Items
+      - Joint
+      - Mastercard
+      - Merchants
+      - Monetary
+      - Notes
+      - Notifications
+      - Payments
+      - Quotes
+      - Responses
+      - Results
+      - Savings
+      - Schedules
+      - Services
+      - Share
+      - Statements
+      - Switch
+      - Tabs
+      - Text
+      - Transactions
+      - URL
+      - Users
+      - Whitelist
     properties:
       - type: OpenAPI
         url: properties/bunq-user-userid-monetary-account-openapi-original.yml
+      - type: Documentation
+        url: https://doc.bunq.com/
     overlays:
       - type: OpenAPI
         url: overlays/bunq-user-userid-monetary-account-openapi-search.yml
+    humanURL: https://doc.bunq.com/#/monetary-account
+    baseURL: https://public-api.sandbox.bunq.com/
   - name: Bunq Attachments API
-    description: Needs description.
-    tags: []
+    description: An API for managing attachments associated with a Bunq account.
+    tags:
+      - Attachments
+      - Items
+      - Users
+      - Content
     properties:
       - type: OpenAPI
         url: properties/bunq-user-userid-attachment-openapi-original.yml
+      - type: Documentation
+        url: https://doc.bunq.com/
     overlays:
       - type: OpenAPI
         url: overlays/bunq-user-userid-attachment-openapi-search.yml
+    humanURL: https://doc.bunq.com/#/attachment
+    baseURL: https://public-api.sandbox.bunq.com/
 common:
   - type: Portal
     url: https://developer.bunq.com/en/

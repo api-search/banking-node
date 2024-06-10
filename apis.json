@@ -14,7 +14,7 @@ layout: none
 "includes": [{% for api in site.apis %}{% if api.url contains "overlays" %}{% else %}{% if api.url contains "properties" %}{% else %}{% if api.url contains "json" %}{% else %}{% assign pos = api.url | size | minus: 1 %}{% assign len = api.url | size %}{% assign url = api.url | slice: 0, pos %}{% assign url = url | slice: 1, len %} 
     {
     "name": "{{ api.name | strip_newlines }}",
-    "url": "https://raw.githubusercontent.com/api-search/{{ site.node }}/main/_{{ url }}.md"
+    "url": "https://raw.githubusercontent.com/api-search/{{ site.node }}/main/_{{ url | replace: "_apis","_data" }}.md"
     }{% unless forloop.last %},{% endunless %}{% endif %}{% endif %}{% endif %}{% endfor %}
 ],
 "network": [{% for network in site.data.apis.network %}

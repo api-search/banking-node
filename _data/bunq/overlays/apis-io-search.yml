@@ -367,7 +367,12 @@ apis:
       https://doc.bunq.com/#/content/List_all_Content_for_User_ExportAnnualOverview
   - name: Bunq User Credential Password Ip API
     description: Needs description.
-    tags: []
+    tags:
+      - Credentials
+      - IP
+      - Items
+      - Password
+      - Users
     properties:
       - type: OpenAPI
         url: >-
@@ -388,7 +393,9 @@ apis:
           overlays/bunq-user-userid-currency-cloud-beneficiary-openapi-search.yml
   - name: Bunq Device API
     description: Needs description.
-    tags: []
+    tags:
+      - Device
+      - Items
     properties:
       - type: OpenAPI
         url: properties/bunq-device--openapi-original.yml
@@ -397,7 +404,10 @@ apis:
         url: overlays/bunq-device--openapi-search.yml
   - name: Bunq Device Server API
     description: Needs description.
-    tags: []
+    tags:
+      - Device
+      - Items
+      - Servers
     properties:
       - type: OpenAPI
         url: properties/bunq-device-server--openapi-original.yml
@@ -406,7 +416,10 @@ apis:
         url: overlays/bunq-device-server--openapi-search.yml
   - name: Bunq User Event API
     description: Needs description.
-    tags: []
+    tags:
+      - Events
+      - Items
+      - Users
     properties:
       - type: OpenAPI
         url: properties/bunq-user-userid-event-openapi-original.yml
@@ -415,7 +428,11 @@ apis:
         url: overlays/bunq-user-userid-event-openapi-search.yml
   - name: Bunq User Feature Announcement API
     description: Needs description.
-    tags: []
+    tags:
+      - Announcement
+      - Feature
+      - Items
+      - Users
     properties:
       - type: OpenAPI
         url: properties/bunq-user-userid-feature-announcement-openapi-original.yml
@@ -424,7 +441,11 @@ apis:
         url: overlays/bunq-user-userid-feature-announcement-openapi-search.yml
   - name: Bunq User Insight Preference Date API
     description: Needs description.
-    tags: []
+    tags:
+      - Dates
+      - Insights
+      - Preferences
+      - Users
     properties:
       - type: OpenAPI
         url: >-
@@ -434,7 +455,10 @@ apis:
         url: overlays/bunq-user-userid-insight-preference-date-openapi-search.yml
   - name: Bunq User Insights API
     description: Needs description.
-    tags: []
+    tags:
+      - Insights
+      - Users
+      - Search
     properties:
       - type: OpenAPI
         url: properties/bunq-user-userid-insights-openapi-original.yml
@@ -443,7 +467,12 @@ apis:
         url: overlays/bunq-user-userid-insights-openapi-search.yml
   - name: Bunq Installation API
     description: Needs description.
-    tags: []
+    tags:
+      - Installations
+      - Items
+      - Keys
+      - Public
+      - Servers
     properties:
       - type: OpenAPI
         url: properties/bunq-installation--openapi-original.yml
@@ -452,7 +481,12 @@ apis:
         url: overlays/bunq-installation--openapi-search.yml
   - name: Bunq User Invoice API
     description: Needs description.
-    tags: []
+    tags:
+      - Invoices
+      - Users
+      - Items
+      - Content
+      - PDF
     properties:
       - type: OpenAPI
         url: properties/bunq-user-userid-invoice-openapi-original.yml
@@ -461,7 +495,10 @@ apis:
         url: overlays/bunq-user-userid-invoice-openapi-search.yml
   - name: Bunq User Legal Name API
     description: Needs description.
-    tags: []
+    tags:
+      - Legal
+      - Names
+      - Users
     properties:
       - type: OpenAPI
         url: properties/bunq-user-userid-legal-name-openapi-original.yml
@@ -470,7 +507,9 @@ apis:
         url: overlays/bunq-user-userid-legal-name-openapi-search.yml
   - name: Bunq User Limit API
     description: Needs description.
-    tags: []
+    tags:
+      - Limits
+      - Users
     properties:
       - type: OpenAPI
         url: properties/bunq-user-userid-limit-openapi-original.yml
@@ -479,7 +518,12 @@ apis:
         url: overlays/bunq-user-userid-limit-openapi-search.yml
   - name: Bunq User Monetary Account Bank API
     description: Needs description.
-    tags: []
+    tags:
+      - Accounts
+      - Bank
+      - Monetary
+      - Users
+      - Items
     properties:
       - type: OpenAPI
         url: properties/bunq-user-userid-monetary-account-bank-openapi-original.yml
@@ -488,7 +532,12 @@ apis:
         url: overlays/bunq-user-userid-monetary-account-bank-openapi-search.yml
   - name: Bunq User Monetary Account Card API
     description: Needs description.
-    tags: []
+    tags:
+      - Accounts
+      - Cards
+      - Items
+      - Monetary
+      - Users
     properties:
       - type: OpenAPI
         url: properties/bunq-user-userid-monetary-account-card-openapi-original.yml
@@ -497,7 +546,13 @@ apis:
         url: overlays/bunq-user-userid-monetary-account-card-openapi-search.yml
   - name: Bunq User Monetary Account External API
     description: Needs description.
-    tags: []
+    tags:
+      - Accounts
+      - External
+      - Monetary
+      - Users
+      - Items
+      - Savings
     properties:
       - type: OpenAPI
         url: >-
@@ -507,7 +562,12 @@ apis:
         url: overlays/bunq-user-userid-monetary-account-external-openapi-search.yml
   - name: Bunq User Monetary Account Joint API
     description: Needs description.
-    tags: []
+    tags:
+      - Accounts
+      - Joint
+      - Monetary
+      - Users
+      - Items
     properties:
       - type: OpenAPI
         url: >-
@@ -517,7 +577,12 @@ apis:
         url: overlays/bunq-user-userid-monetary-account-joint-openapi-search.yml
   - name: Bunq User Monetary Account Savings API
     description: Needs description.
-    tags: []
+    tags:
+      - Accounts
+      - Monetary
+      - Savings
+      - Users
+      - Items
     properties:
       - type: OpenAPI
         url: >-
@@ -527,7 +592,10 @@ apis:
         url: overlays/bunq-user-userid-monetary-account-savings-openapi-search.yml
   - name: Bunq User Company User Company Name API
     description: Needs description.
-    tags: []
+    tags:
+      - Companies
+      - Names
+      - Users
     properties:
       - type: OpenAPI
         url: properties/bunq-user-company-user-companyid-name-openapi-original.yml
@@ -536,7 +604,11 @@ apis:
         url: overlays/bunq-user-company-user-companyid-name-openapi-search.yml
   - name: Bunq User Notification Filter Email API
     description: Needs description.
-    tags: []
+    tags:
+      - Emails
+      - Filter
+      - Notifications
+      - Users
     properties:
       - type: OpenAPI
         url: >-
@@ -546,7 +618,11 @@ apis:
         url: overlays/bunq-user-userid-notification-filter-email-openapi-search.yml
   - name: Bunq User Notification Filter Failure API
     description: Needs description.
-    tags: []
+    tags:
+      - Failure
+      - Filter
+      - Notifications
+      - Users
     properties:
       - type: OpenAPI
         url: >-
@@ -557,7 +633,10 @@ apis:
           overlays/bunq-user-userid-notification-filter-failure-openapi-search.yml
   - name: Bunq User Notification Filter Push API
     description: Needs description.
-    tags: []
+    tags:
+      - Filter
+      - Notifications
+      - Users
     properties:
       - type: OpenAPI
         url: >-
@@ -567,7 +646,11 @@ apis:
         url: overlays/bunq-user-userid-notification-filter-push-openapi-search.yml
   - name: Bunq User Notification Filter Url API
     description: Needs description.
-    tags: []
+    tags:
+      - Filter
+      - Notifications
+      - URL
+      - Users
     properties:
       - type: OpenAPI
         url: >-
@@ -577,7 +660,11 @@ apis:
         url: overlays/bunq-user-userid-notification-filter-url-openapi-search.yml
   - name: Bunq User Payment Auto Allocate API
     description: Needs description.
-    tags: []
+    tags:
+      - Allocate
+      - Auto
+      - Payments
+      - Users
     properties:
       - type: OpenAPI
         url: properties/bunq-user-userid-payment-auto-allocate-openapi-original.yml
@@ -586,7 +673,14 @@ apis:
         url: overlays/bunq-user-userid-payment-auto-allocate-openapi-search.yml
   - name: Bunq Payment Service Provider Credential API
     description: Needs description.
-    tags: []
+    tags:
+      - Credentials
+      - Er
+      - Items
+      - Payments
+      - Prov
+      - Providers
+      - Services
     properties:
       - type: OpenAPI
         url: >-
@@ -596,7 +690,15 @@ apis:
         url: overlays/bunq-payment-service-provider-credential--openapi-search.yml
   - name: Bunq User Payment Service Provider Draft Payment API
     description: Needs description.
-    tags: []
+    tags:
+      - Draft
+      - Er
+      - Payments
+      - Prov
+      - Providers
+      - Services
+      - Users
+      - Items
     properties:
       - type: OpenAPI
         url: >-
@@ -607,7 +709,16 @@ apis:
           overlays/bunq-user-userid-payment-service-provider-draft-payment-openapi-search.yml
   - name: Bunq User Payment Service Provider Issuer Transaction API
     description: Needs description.
-    tags: []
+    tags:
+      - Er
+      - Issuer
+      - Payments
+      - Prov
+      - Providers
+      - Services
+      - Transactions
+      - Users
+      - Items
     properties:
       - type: OpenAPI
         url: >-
@@ -627,7 +738,11 @@ apis:
         url: overlays/bunq-registry-import-splitwise-csv--openapi-search.yml
   - name: Bunq User Registry API
     description: Needs description.
-    tags: []
+    tags:
+      - Registries
+      - Settlements
+      - Users
+      - Items
     properties:
       - type: OpenAPI
         url: properties/bunq-user-userid-registry-openapi-original.yml
@@ -654,7 +769,9 @@ apis:
         url: overlays/bunq-sandbox-user-person--openapi-search.yml
   - name: Bunq User Schedule API
     description: Needs description.
-    tags: []
+    tags:
+      - Schedules
+      - Users
     properties:
       - type: OpenAPI
         url: properties/bunq-user-userid-schedule-openapi-original.yml
@@ -672,7 +789,11 @@ apis:
         url: overlays/bunq-server-error--openapi-search.yml
   - name: Bunq Installation Installation Server Public Key API
     description: Needs description.
-    tags: []
+    tags:
+      - Installations
+      - Keys
+      - Public
+      - Servers
     properties:
       - type: OpenAPI
         url: >-
@@ -701,7 +822,13 @@ apis:
         url: overlays/bunq-session-server--openapi-search.yml
   - name: Bunq User Share Invite Monetary Account Response API
     description: Needs description.
-    tags: []
+    tags:
+      - Accounts
+      - Invite
+      - Items
+      - Monetary
+      - Share
+      - Users
     properties:
       - type: OpenAPI
         url: >-
@@ -712,7 +839,10 @@ apis:
           overlays/bunq-user-userid-share-invite-monetary-account-response-openapi-search.yml
   - name: Bunq User Token Qr Request Eal API
     description: Needs description.
-    tags: []
+    tags:
+      - Ideal
+      - Tokens
+      - Users
     properties:
       - type: OpenAPI
         url: >-
@@ -722,7 +852,9 @@ apis:
         url: overlays/bunq-user-userid-token-qr-request-ideal-openapi-search.yml
   - name: Bunq User Token Qr Request Sofort API
     description: Needs description.
-    tags: []
+    tags:
+      - Tokens
+      - Users
     properties:
       - type: OpenAPI
         url: >-
@@ -732,7 +864,10 @@ apis:
         url: overlays/bunq-user-userid-token-qr-request-sofort-openapi-search.yml
   - name: Bunq User Transferwise Currency API
     description: Needs description.
-    tags: []
+    tags:
+      - Currencies
+      - Transferwise
+      - Users
     properties:
       - type: OpenAPI
         url: properties/bunq-user-userid-transferwise-currency-openapi-original.yml
@@ -741,7 +876,15 @@ apis:
         url: overlays/bunq-user-userid-transferwise-currency-openapi-search.yml
   - name: Bunq User Transferwise Quote API
     description: Needs description.
-    tags: []
+    tags:
+      - Quotes
+      - Transferwise
+      - Users
+      - Items
+      - Temporary
+      - Recipient
+      - Requirements
+      - Transfers
     properties:
       - type: OpenAPI
         url: properties/bunq-user-userid-transferwise-quote-openapi-original.yml
@@ -750,7 +893,9 @@ apis:
         url: overlays/bunq-user-userid-transferwise-quote-openapi-search.yml
   - name: Bunq User Transferwise User API
     description: Needs description.
-    tags: []
+    tags:
+      - Transferwise
+      - Users
     properties:
       - type: OpenAPI
         url: properties/bunq-user-userid-transferwise-user-openapi-original.yml
@@ -759,7 +904,10 @@ apis:
         url: overlays/bunq-user-userid-transferwise-user-openapi-search.yml
   - name: Bunq User Tree Progress API
     description: Needs description.
-    tags: []
+    tags:
+      - Progress
+      - Trees
+      - Users
     properties:
       - type: OpenAPI
         url: properties/bunq-user-userid-tree-progress-openapi-original.yml
@@ -805,7 +953,11 @@ apis:
         url: overlays/bunq-user-person-itemid--openapi-search.yml
   - name: Bunq User Whitelist Sdd API
     description: Needs description.
-    tags: []
+    tags:
+      - Items
+      - Users
+      - Whitelist
+      - Recurring
     properties:
       - type: OpenAPI
         url: properties/bunq-user-userid-whitelist-sdd-openapi-original.yml

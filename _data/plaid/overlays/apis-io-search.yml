@@ -27,7 +27,7 @@ apis:
       - type: OpenAPI
         url: properties/plaid-openapi-original.yml
     aid: plaid:plaid-api
-  - name: ' asset report/'
+  - name: Plaid Asset Report API
     description: Needs description.
     tags: []
     properties:
@@ -36,7 +36,7 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/plaid-asset-report--openapi-search.yml
-  - name: ' cra/'
+  - name: Plaid Cra API
     description: Needs description.
     tags: []
     properties:
@@ -45,7 +45,7 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/plaid-cra--openapi-search.yml
-  - name: ' consumer report/pdf/get/'
+  - name: Plaid Consumer Report API
     description: Needs description.
     tags: []
     properties:
@@ -54,7 +54,7 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/plaid-consumer-report-pdf-get--openapi-search.yml
-  - name: ' statements/'
+  - name: Plaid Statements API
     description: Needs description.
     tags: []
     properties:
@@ -63,7 +63,7 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/plaid-statements--openapi-search.yml
-  - name: ' item/'
+  - name: Plaid Item API
     description: Needs description.
     tags: []
     properties:
@@ -72,7 +72,7 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/plaid-item--openapi-search.yml
-  - name: ' application/'
+  - name: Plaid Application API
     description: Needs description.
     tags: []
     properties:
@@ -81,7 +81,7 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/plaid-application--openapi-search.yml
-  - name: ' profile/'
+  - name: Plaid Profile API
     description: Needs description.
     tags: []
     properties:
@@ -90,7 +90,7 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/plaid-profile--openapi-search.yml
-  - name: ' auth/'
+  - name: Plaid Auth API
     description: Needs description.
     tags: []
     properties:
@@ -99,7 +99,7 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/plaid-auth--openapi-search.yml
-  - name: ' transactions/'
+  - name: Plaid Transactions API
     description: Needs description.
     tags: []
     properties:
@@ -108,7 +108,7 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/plaid-transactions--openapi-search.yml
-  - name: ' institutions/'
+  - name: Plaid Institutions API
     description: Needs description.
     tags: []
     properties:
@@ -117,7 +117,7 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/plaid-institutions--openapi-search.yml
-  - name: ' accounts/'
+  - name: Plaid Accounts API
     description: Needs description.
     tags: []
     properties:
@@ -126,7 +126,7 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/plaid-accounts--openapi-search.yml
-  - name: ' categories/'
+  - name: Plaid Categories API
     description: Needs description.
     tags: []
     properties:
@@ -135,7 +135,7 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/plaid-categories--openapi-search.yml
-  - name: ' sandbox/'
+  - name: Plaid Sandbox API
     description: Needs description.
     tags: []
     properties:
@@ -144,7 +144,7 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/plaid-sandbox--openapi-search.yml
-  - name: ' accounts/'
+  - name: Plaid Accounts API
     description: Needs description.
     tags: []
     properties:
@@ -153,7 +153,7 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/plaid-accounts--openapi-search.yml
-  - name: ' identity/'
+  - name: Plaid Entity API
     description: Needs description.
     tags: []
     properties:
@@ -162,7 +162,7 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/plaid-identity--openapi-search.yml
-  - name: ' dashboard user/'
+  - name: Plaid Dashboard User API
     description: Needs description.
     tags: []
     properties:
@@ -171,7 +171,7 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/plaid-dashboard-user--openapi-search.yml
-  - name: ' identity verification/'
+  - name: Plaid Entity Verification API
     description: Needs description.
     tags: []
     properties:
@@ -180,7 +180,7 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/plaid-identity-verification--openapi-search.yml
-  - name: ' watchlist screening/'
+  - name: Plaid Watchlist Screening API
     description: Needs description.
     tags: []
     properties:
@@ -189,7 +189,7 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/plaid-watchlist-screening--openapi-search.yml
-  - name: ' beacon/'
+  - name: Plaid Beacon API
     description: Needs description.
     tags: []
     properties:
@@ -198,7 +198,7 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/plaid-beacon--openapi-search.yml
-  - name: ' identity verification/'
+  - name: Plaid Entity Verification API
     description: Needs description.
     tags: []
     properties:
@@ -207,7 +207,7 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/plaid-identity-verification--openapi-search.yml
-  - name: ' processor/'
+  - name: Plaid Processor API
     description: Needs description.
     tags: []
     properties:
@@ -216,7 +216,7 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/plaid-processor--openapi-search.yml
-  - name: ' webhook verification/'
+  - name: Plaid Webhook Verification API
     description: Needs description.
     tags: []
     properties:
@@ -225,7 +225,7 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/plaid-webhook-verification--openapi-search.yml
-  - name: ' liabilities/'
+  - name: Plaid Liabilities API
     description: Needs description.
     tags: []
     properties:
@@ -234,7 +234,7 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/plaid-liabilities--openapi-search.yml
-  - name: ' payment initiation/'
+  - name: Plaid Payment Initiation API
     description: Needs description.
     tags: []
     properties:
@@ -243,7 +243,7 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/plaid-payment-initiation--openapi-search.yml
-  - name: ' user/'
+  - name: Plaid User API
     description: Needs description.
     tags: []
     properties:
@@ -252,7 +252,7 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/plaid-user--openapi-search.yml
-  - name: ' credit/'
+  - name: Plaid Credit API
     description: Needs description.
     tags: []
     properties:
@@ -261,7 +261,7 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/plaid-credit--openapi-search.yml
-  - name: ' investments/'
+  - name: Plaid Investments API
     description: Needs description.
     tags: []
     properties:
@@ -270,7 +270,7 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/plaid-investments--openapi-search.yml
-  - name: ' deposit switch/'
+  - name: Plaid Deposit Switch API
     description: Needs description.
     tags: []
     properties:
@@ -279,7 +279,7 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/plaid-deposit-switch--openapi-search.yml
-  - name: ' link/'
+  - name: Plaid Link API
     description: Needs description.
     tags: []
     properties:
@@ -288,7 +288,7 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/plaid-link--openapi-search.yml
-  - name: ' transfer/'
+  - name: Plaid Transfer API
     description: Needs description.
     tags: []
     properties:
@@ -297,7 +297,7 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/plaid-transfer--openapi-search.yml
-  - name: ' bank transfer/'
+  - name: Plaid Bank Transfer API
     description: Needs description.
     tags: []
     properties:
@@ -306,7 +306,7 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/plaid-bank-transfer--openapi-search.yml
-  - name: ' employers/'
+  - name: Plaid Employers API
     description: Needs description.
     tags: []
     properties:
@@ -315,7 +315,7 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/plaid-employers--openapi-search.yml
-  - name: ' income/'
+  - name: Plaid Income API
     description: Needs description.
     tags: []
     properties:
@@ -324,7 +324,7 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/plaid-income--openapi-search.yml
-  - name: ' beta/'
+  - name: Plaid Beta API
     description: Needs description.
     tags: []
     properties:
@@ -333,7 +333,7 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/plaid-beta--openapi-search.yml
-  - name: ' signal/'
+  - name: Plaid Signal API
     description: Needs description.
     tags: []
     properties:
@@ -342,7 +342,7 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/plaid-signal--openapi-search.yml
-  - name: ' wallet/'
+  - name: Plaid Wallet API
     description: Needs description.
     tags: []
     properties:
@@ -351,7 +351,7 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/plaid-wallet--openapi-search.yml
-  - name: ' paymet profile/'
+  - name: Plaid Paymet Profile API
     description: Needs description.
     tags: []
     properties:
@@ -360,7 +360,7 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/plaid-paymet-profile--openapi-search.yml
-  - name: ' payment profile/'
+  - name: Plaid Payment Profile API
     description: Needs description.
     tags: []
     properties:
@@ -369,7 +369,7 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/plaid-payment-profile--openapi-search.yml
-  - name: ' partner/'
+  - name: Plaid Partner API
     description: Needs description.
     tags: []
     properties:
@@ -378,7 +378,7 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/plaid-partner--openapi-search.yml
-  - name: ' link delivery/'
+  - name: Plaid Link Delivery API
     description: Needs description.
     tags: []
     properties:
@@ -387,7 +387,7 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/plaid-link-delivery--openapi-search.yml
-  - name: ' fdx/'
+  - name: Plaid FDX API
     description: Needs description.
     tags: []
     properties:

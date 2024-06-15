@@ -44,9 +44,13 @@ apis:
     properties:
       - type: OpenAPI
         url: properties/plaid-asset-report--openapi-original.yml
+      - type: Documentation
+        url: https://plaid.com/docs/api/products/assets/
     overlays:
       - type: OpenAPI
         url: overlays/plaid-asset-report--openapi-search.yml
+    humanURL: https://plaid.com/docs/api/products/assets/
+    baseURL: https://production.plaid.com
   - name: Plaid Base Report API
     description: API for retrieving a base report for an account.
     tags:

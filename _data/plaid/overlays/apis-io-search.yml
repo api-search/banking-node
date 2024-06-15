@@ -49,6 +49,8 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/plaid-asset-report--openapi-search.yml
+      - type: API Evangelist Ratings
+        url: overlays/plaid-asset-report--openapi-api-evangelist-ratings.yml
     humanURL: https://plaid.com/docs/api/products/assets/
     baseURL: https://production.plaid.com
   - name: Plaid Base Report API

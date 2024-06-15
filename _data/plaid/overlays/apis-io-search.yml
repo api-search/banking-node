@@ -74,6 +74,7 @@ apis:
         url: overlays/plaid-cra--openapi-api-evangelist-ratings.yml
     humanURL: https://plaid.com/docs/check/api/
     score: 459
+    baseURL: https://production.plaid.com
   - name: Plaid Consumer Report API
     description: >-
       Consumer Report provides lenders, property managers, and buy now pay later
@@ -88,6 +89,7 @@ apis:
       - type: OpenAPI
         url: overlays/plaid-consumer-report-pdf-get--openapi-search.yml
     humanURL: https://plaid.com/docs/check/api/
+    baseURL: https://production.plaid.com
   - name: Plaid Statements API
     description: API reference for Statements endpoints and webhooks.
     tags:
@@ -110,6 +112,7 @@ apis:
         url: overlays/plaid-statements--openapi-api-evangelist-ratings.yml
     humanURL: https://plaid.com/docs/api/products/statements/
     score: 155
+    baseURL: https://production.plaid.com
   - name: Plaid Item API
     description: API reference for retrieving and deleting Items.
     tags:
@@ -156,61 +159,121 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/plaid-item--openapi-search.yml
+      - type: API Evangelist Ratings
+        url: overlays/plaid-item--openapi-api-evangelist-ratings.yml
     humanURL: https://plaid.com/docs/api/items/
+    score: 760
+    baseURL: https://production.plaid.com
   - name: Plaid Application API
-    description: Needs description.
+    description: For managing application data.
     tags: []
     properties:
       - type: OpenAPI
         url: properties/plaid-application--openapi-original.yml
+      - type: Documentation
+        url: https://plaid.com/docs/api/items/
     overlays:
       - type: OpenAPI
         url: overlays/plaid-application--openapi-search.yml
+      - type: API Evangelist Ratings
+        url: overlays/plaid-application--openapi-api-evangelist-ratings.yml
+    humanURL: https://plaid.com/docs/api/items/
+    score: 295
+    baseURL: https://production.plaid.com
   - name: Plaid Profile API
-    description: Needs description.
+    description: Use to manage Plaid profile data.
     tags: []
     properties:
       - type: OpenAPI
         url: properties/plaid-profile--openapi-original.yml
+      - type: Documentation
+        url: https://plaid.com/docs/
     overlays:
       - type: OpenAPI
         url: overlays/plaid-profile--openapi-search.yml
+      - type: API Evangelist Ratings
+        url: overlays/plaid-profile--openapi-api-evangelist-ratings.yml
+    humanURL: https://plaid.com/docs/
+    score: 218
+    baseURL: https://production.plaid.com
   - name: Plaid Auth API
-    description: Needs description.
+    description: >+
+      Retrieve bank account information to set up electronic funds transfers,
+      such as ACH payments in the US, EFT payments in Canada, BACS payments in
+      the UK, and IBAN / SIC payments in the EU.
+
     tags: []
     properties:
       - type: OpenAPI
         url: properties/plaid-auth--openapi-original.yml
+      - type: Documentation
+        url: https://plaid.com/docs/api/products/auth/
     overlays:
       - type: OpenAPI
         url: overlays/plaid-auth--openapi-search.yml
+      - type: API Evangelist Ratings
+        url: overlays/plaid-auth--openapi-api-evangelist-ratings.yml
+    humanURL: https://plaid.com/docs/api/products/auth/
+    baseURL: https://production.plaid.com
+    score: 218
   - name: Plaid Transactions API
-    description: Needs description.
+    description: >-
+      Retrieve and refresh up to 24 months of historical transaction data,
+      including geolocation, merchant, and category information.
     tags: []
     properties:
       - type: OpenAPI
         url: properties/plaid-transactions--openapi-original.yml
+      - type: Documentation
+        url: https://plaid.com/docs/api/products/transactions/
     overlays:
       - type: OpenAPI
         url: overlays/plaid-transactions--openapi-search.yml
+      - type: API Evangelist Ratings
+        url: overlays/plaid-transactions--openapi-api-evangelist-ratings.yml
+    humanURL: https://plaid.com/docs/api/products/transactions/
+    baseURL: https://production.plaid.com
+    score: 1113
   - name: Plaid Institutions API
-    description: Needs description.
+    description: >-
+      Institutions endpoints support querying all institutions, as well as
+      looking up a single institution to retrieve up-to-date information about
+      its health status and capabilities. This can be useful for apps whose
+      business logic may depend on institution capabilities, such as Payment
+      Initiation. API-provided institution health data can also be used for
+      in-app UIs.
     tags: []
     properties:
       - type: OpenAPI
         url: properties/plaid-institutions--openapi-original.yml
+      - type: Documentation
+        url: https://plaid.com/docs/api/institutions/
     overlays:
       - type: OpenAPI
         url: overlays/plaid-institutions--openapi-search.yml
+      - type: API Evangelist Ratings
+        url: overlays/plaid-institutions--openapi-api-evangelist-ratings.yml
+    humanURL: https://plaid.com/docs/api/institutions/
+    baseURL: https://production.plaid.com
+    score: 278
   - name: Plaid Accounts API
-    description: Needs description.
+    description: >-
+      API reference for retrieving account information and seeing all possible
+      account types and subtypes
     tags: []
     properties:
       - type: OpenAPI
         url: properties/plaid-accounts--openapi-original.yml
+      - type: Documentation
+        url: https://plaid.com/docs/api/accounts/
     overlays:
       - type: OpenAPI
         url: overlays/plaid-accounts--openapi-search.yml
+      - type: API Evangelist Ratings
+        url: overlays/plaid-accounts--openapi-api-evangelist-ratings.yml
+    humanURL: https://plaid.com/docs/api/accounts/
+    baseURL: https://production.plaid.com
+    score: 208
   - name: Plaid Categories API
     description: Needs description.
     tags: []

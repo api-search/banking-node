@@ -29,24 +29,61 @@ apis:
     aid: plaid:plaid-api
   - name: Plaid Asset Report API
     description: Needs description.
-    tags: []
+    tags:
+      - Assets
+      - Reports
+      - PDF
+      - Refresh
+      - Filter
+      - Audit
+      - Copy
+      - Credit
+      - Endpoints
+      - Format
+      - Freddie
     properties:
       - type: OpenAPI
         url: properties/plaid-asset-report--openapi-original.yml
     overlays:
       - type: OpenAPI
         url: overlays/plaid-asset-report--openapi-search.yml
-  - name: Plaid Cra API
-    description: Needs description.
-    tags: []
+  - name: Plaid Base Report API
+    description: API for retrieving a base report for an account.
+    tags:
+      - Accounts
+      - Applicants
+      - Applications
+      - Bank
+      - Base
+      - CRA
+      - Cash
+      - Data
+      - Decisions
+      - Flows
+      - Income
+      - Information
+      - Insights
+      - Loan
+      - Loans
+      - Partners
+      - Register
+      - Reports
+      - Unregister
+      - Used
+      - Verification
     properties:
       - type: OpenAPI
         url: properties/plaid-cra--openapi-original.yml
     overlays:
       - type: OpenAPI
         url: overlays/plaid-cra--openapi-search.yml
+    humanURL: https://plaid.com/docs/check/api/
   - name: Plaid Consumer Report API
-    description: Needs description.
+    description: >-
+      Consumer Report provides lenders, property managers, and buy now pay later
+      providers real-time visibility into a borrower’s finances, along with
+      signals only made possible through our vantage point as the leading open
+      banking network.
     tags: []
     properties:
       - type: OpenAPI
@@ -54,24 +91,73 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/plaid-consumer-report-pdf-get--openapi-search.yml
+    humanURL: https://plaid.com/docs/check/api/
   - name: Plaid Statements API
-    description: Needs description.
-    tags: []
+    description: API reference for Statements endpoints and webhooks.
+    tags:
+      - Associated
+      - Items
+      - Statements
+      - Download
+      - Single
+      - Data
+      - Refresh
     properties:
       - type: OpenAPI
         url: properties/plaid-statements--openapi-original.yml
+      - type: Documentation
+        url: https://plaid.com/docs/api/products/statements/
     overlays:
       - type: OpenAPI
         url: overlays/plaid-statements--openapi-search.yml
+    humanURL: https://plaid.com/docs/api/products/statements/
   - name: Plaid Item API
-    description: Needs description.
-    tags: []
+    description: API reference for retrieving and deleting Items.
+    tags:
+      - Access
+      - Access Token
+      - Accounts
+      - Activity
+      - Applications
+      - Ate
+      - Connected
+      - Consent
+      - Errors
+      - Events
+      - Exchange
+      - Fire
+      - Force
+      - Historical
+      - Import
+      - Inval
+      - Invalidate
+      - Items
+      - Login
+      - Logs
+      - Public
+      - Reset
+      - Sandbox
+      - Scopes
+      - Sets
+      - States
+      - Status
+      - Tests
+      - Tokens
+      - URL
+      - Unlink
+      - Users
+      - User’s
+      - Verification
+      - Webhooks
     properties:
       - type: OpenAPI
         url: properties/plaid-item--openapi-original.yml
+      - type: Documentation
+        url: https://plaid.com/docs/api/items/
     overlays:
       - type: OpenAPI
         url: overlays/plaid-item--openapi-search.yml
+    humanURL: https://plaid.com/docs/api/items/
   - name: Plaid Application API
     description: Needs description.
     tags: []

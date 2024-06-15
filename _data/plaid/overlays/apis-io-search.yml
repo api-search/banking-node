@@ -11,22 +11,6 @@ modified: '2024-07-07T00:00:00.000Z'
 specificationVersion: '0.16'
 tags: []
 apis:
-  - name: Plaid API
-    description: >-
-      Plaid is focused on democratizing financial services through technology.
-      We build beautiful consumer experiences, developer-friendly
-      infrastructure, and intelligent tools that give everyone the ability to
-      create amazing products that solve big problems.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://plaid.com/docs/
-    baseURL: https://api.example.com
-    tags: []
-    properties:
-      - type: Documentation
-        url: https://plaid.com/docs/
-      - type: OpenAPI
-        url: properties/plaid-openapi-original.yml
-    aid: plaid:plaid-api
   - name: Plaid Asset Report API
     description: Needs description.
     tags:

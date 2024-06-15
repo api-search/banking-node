@@ -12,7 +12,9 @@ specificationVersion: '0.16'
 tags: []
 apis:
   - name: Plaid Asset Report API
-    description: Needs description.
+    description: >-
+      Create, delete, retrieve and share Asset Reports with information about a
+      user's assets and transactions.
     tags:
       - Assets
       - Reports
@@ -37,6 +39,7 @@ apis:
         url: overlays/plaid-asset-report--openapi-api-evangelist-ratings.yml
     humanURL: https://plaid.com/docs/api/products/assets/
     baseURL: https://production.plaid.com
+    score: 428
   - name: Plaid Base Report API
     description: API for retrieving a base report for an account.
     tags:
@@ -67,7 +70,10 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/plaid-cra--openapi-search.yml
+      - type: API Evangelist Ratings
+        url: overlays/plaid-cra--openapi-api-evangelist-ratings.yml
     humanURL: https://plaid.com/docs/check/api/
+    score: 459
   - name: Plaid Consumer Report API
     description: >-
       Consumer Report provides lenders, property managers, and buy now pay later
@@ -100,7 +106,10 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/plaid-statements--openapi-search.yml
+      - type: API Evangelist Ratings
+        url: overlays/plaid-statements--openapi-api-evangelist-ratings.yml
     humanURL: https://plaid.com/docs/api/products/statements/
+    score: 155
   - name: Plaid Item API
     description: API reference for retrieving and deleting Items.
     tags:

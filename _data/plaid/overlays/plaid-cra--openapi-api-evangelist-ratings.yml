@@ -72,6 +72,8 @@ rule:
     message: 404 Status Code for POST Responses
   - code: openapi-response-post-500-status-code-error
     message: 500 Status Code for POST Responses
+  - code: invalid-ref
+    message: '''#/components/schemas/BaseReportGetResponse'' does not exist'
   - code: openapi-operations-description-info
     message: Operation Description
   - code: openapi-no-api-in-path-error
@@ -116,6 +118,8 @@ rule:
     message: 404 Status Code for POST Responses
   - code: openapi-response-post-500-status-code-error
     message: 500 Status Code for POST Responses
+  - code: invalid-ref
+    message: '''#/components/schemas/BaseReportCreateResponse'' does not exist'
   - code: openapi-operations-description-info
     message: Operation Description
   - code: openapi-no-api-in-path-error
@@ -144,6 +148,8 @@ rule:
     message: 404 Status Code for POST Responses
   - code: openapi-response-post-500-status-code-error
     message: 500 Status Code for POST Responses
+  - code: invalid-ref
+    message: '''#/components/schemas/CraBankIncomeGetResponse'' does not exist'
   - code: openapi-operations-operation-ids-info
     message: Operation ID.
   - code: openapi-operations-description-info
@@ -188,6 +194,8 @@ rule:
     message: 404 Status Code for POST Responses
   - code: openapi-response-post-500-status-code-error
     message: 500 Status Code for POST Responses
+  - code: invalid-ref
+    message: '''#/components/schemas/CraBankIncomeCreateResponse'' does not exist'
   - code: openapi-operations-operation-ids-info
     message: Operation ID.
   - code: openapi-operations-description-info
@@ -234,6 +242,8 @@ rule:
     message: 404 Status Code for POST Responses
   - code: openapi-response-post-500-status-code-error
     message: 500 Status Code for POST Responses
+  - code: invalid-ref
+    message: '''#/components/schemas/CraPartnerInsightsGetResponse'' does not exist'
   - code: openapi-response-get-default-status-code-info
     message: Response Has Default Status Code
   - code: openapi-response-get-default-content-info
@@ -242,7 +252,11 @@ rule:
     message: JSON Media Type Default
   - code: openapi-response-get-default-media-type-schema-info
     message: Schema Default
-  - code: openapi-response-get-default-schema-ref-warn
+  - code: openapi-response-get-default-schema-components-warn
+    message: Default Response Schema Components
+  - code: invalid-ref
+    message: '''#/components/schemas/PlaidError'' does not exist'
+  - code: openapi-response-get-default-schema-ref-info
     message: Default Response Schema Ref
   - code: openapi-operations-operation-ids-info
     message: Operation ID.
@@ -288,6 +302,8 @@ rule:
     message: 404 Status Code for POST Responses
   - code: openapi-response-post-500-status-code-error
     message: 500 Status Code for POST Responses
+  - code: invalid-ref
+    message: '''#/components/schemas/CraLoansApplicationsRegisterResponse'' does not exist'
   - code: openapi-operations-operation-ids-info
     message: Operation ID.
   - code: openapi-operations-description-info
@@ -332,6 +348,8 @@ rule:
     message: 404 Status Code for POST Responses
   - code: openapi-response-post-500-status-code-error
     message: 500 Status Code for POST Responses
+  - code: invalid-ref
+    message: '''#/components/schemas/CraLoansRegisterResponse'' does not exist'
   - code: openapi-operations-operation-ids-info
     message: Operation ID.
   - code: openapi-operations-description-info
@@ -376,6 +394,8 @@ rule:
     message: 404 Status Code for POST Responses
   - code: openapi-response-post-500-status-code-error
     message: 500 Status Code for POST Responses
+  - code: invalid-ref
+    message: '''#/components/schemas/CraLoansUpdateResponse'' does not exist'
   - code: openapi-operations-operation-ids-info
     message: Operation ID.
   - code: openapi-operations-description-info
@@ -420,6 +440,8 @@ rule:
     message: 404 Status Code for POST Responses
   - code: openapi-response-post-500-status-code-error
     message: 500 Status Code for POST Responses
+  - code: invalid-ref
+    message: '''#/components/schemas/CraLoanUnregisterResponse'' does not exist'
   - code: openapi-operations-operation-ids-info
     message: Operation ID.
   - code: openapi-operations-description-info
@@ -442,509 +464,3 @@ rule:
     message: Request Body Schema Ref
   - code: openapi-security-schemes-error
     message: Security Scheme
-  - code: openapi-schema-examples-info
-    message: Schema Examples
-  - code: openapi-schema-names-camel-case-warn
-    message: Schema Name Camel Case
-  - code: openapi-schema-names-snake-case-warn
-    message: Schema Name Snake Case
-  - code: openapi-schema-type-info
-    message: Schema Type
-  - code: openapi-schema-description-info
-    message: Schemas has a description.
-  - code: openapi-schema-properties-format-error
-    message: Schema Properties Format
-  - code: openapi-schema-properties-names-pascal-case-error
-    message: Schema Property Names Pascal Case
-  - code: openapi-schema-properties-nullable-error
-    message: Schema Properties Format
-  - code: openapi-schema-properties-type-error
-    message: Schema Properties Type
-  - code: invalid-ref
-    message: '''#/components/schemas/BaseReport'' does not exist'
-  - code: openapi-schema-properties-pii-info
-    message: Schema PII
-  - code: openapi-schema-properties-array-maxitems-error
-    message: Schema Property Array MaxItems
-  - code: openapi-schema-properties-array-maxitems-info
-    message: Schema Property Array MaxItems
-  - code: openapi-schema-properties-array-minitems-error
-    message: Schema Property Array MinItems
-  - code: openapi-schema-properties-format-error
-    message: Schema Properties Format
-  - code: openapi-schema-properties-names-pascal-case-error
-    message: Schema Property Names Pascal Case
-  - code: openapi-schema-properties-nullable-error
-    message: Schema Properties Format
-  - code: openapi-schema-properties-pii-info
-    message: Schema PII
-  - code: openapi-schema-properties-type-info
-    message: Schema Properties Type
-  - code: openapi-schema-properties-descriptions-error
-    message: Schema Description
-  - code: openapi-schema-properties-descriptions-info
-    message: Schema Description
-  - code: openapi-schema-properties-pii-info
-    message: Schema PII
-  - code: openapi-schema-properties-array-items-info
-    message: Schema Property Array Items
-  - code: invalid-ref
-    message: '''#/components/schemas/BaseReportWarning'' does not exist'
-  - code: openapi-schema-properties-format-error
-    message: Schema Properties Format
-  - code: openapi-schema-properties-names-camel-case-error
-    message: Schema Property Names Camel Case
-  - code: openapi-schema-properties-names-pascal-case-error
-    message: Schema Property Names Pascal Case
-  - code: openapi-schema-properties-nullable-error
-    message: Schema Properties Format
-  - code: openapi-schema-properties-type-error
-    message: Schema Properties Type
-  - code: invalid-ref
-    message: '''#/components/schemas/RequestID'' does not exist'
-  - code: openapi-schema-properties-pii-info
-    message: Schema PII
-  - code: openapi-schema-required-info
-    message: Schema Required
-  - code: openapi-schema-names-camel-case-warn
-    message: Schema Name Camel Case
-  - code: openapi-schema-names-snake-case-warn
-    message: Schema Name Snake Case
-  - code: openapi-schema-type-info
-    message: Schema Type
-  - code: openapi-schema-description-info
-    message: Schemas has a description.
-  - code: openapi-schema-properties-format-error
-    message: Schema Properties Format
-  - code: openapi-schema-properties-names-camel-case-error
-    message: Schema Property Names Camel Case
-  - code: openapi-schema-properties-names-pascal-case-error
-    message: Schema Property Names Pascal Case
-  - code: openapi-schema-properties-nullable-error
-    message: Schema Properties Format
-  - code: openapi-schema-properties-type-error
-    message: Schema Properties Type
-  - code: openapi-schema-properties-pii-info
-    message: Schema PII
-  - code: openapi-schema-required-info
-    message: Schema Required
-  - code: openapi-schema-names-camel-case-warn
-    message: Schema Name Camel Case
-  - code: openapi-schema-names-snake-case-warn
-    message: Schema Name Snake Case
-  - code: openapi-schema-type-info
-    message: Schema Type
-  - code: openapi-schema-description-info
-    message: Schemas has a description.
-  - code: openapi-schema-properties-array-maxitems-error
-    message: Schema Property Array MaxItems
-  - code: openapi-schema-properties-array-maxitems-info
-    message: Schema Property Array MaxItems
-  - code: openapi-schema-properties-array-minitems-error
-    message: Schema Property Array MinItems
-  - code: openapi-schema-properties-format-error
-    message: Schema Properties Format
-  - code: openapi-schema-properties-names-camel-case-error
-    message: Schema Property Names Camel Case
-  - code: openapi-schema-properties-names-pascal-case-error
-    message: Schema Property Names Pascal Case
-  - code: openapi-schema-properties-nullable-error
-    message: Schema Properties Format
-  - code: openapi-schema-properties-pii-info
-    message: Schema PII
-  - code: openapi-schema-properties-type-info
-    message: Schema Properties Type
-  - code: openapi-schema-properties-array-items-info
-    message: Schema Property Array Items
-  - code: invalid-ref
-    message: '''#/components/schemas/CraBankIncome'' does not exist'
-  - code: openapi-schema-properties-format-error
-    message: Schema Properties Format
-  - code: openapi-schema-properties-names-camel-case-error
-    message: Schema Property Names Camel Case
-  - code: openapi-schema-properties-names-pascal-case-error
-    message: Schema Property Names Pascal Case
-  - code: openapi-schema-properties-nullable-error
-    message: Schema Properties Format
-  - code: openapi-schema-properties-type-error
-    message: Schema Properties Type
-  - code: openapi-schema-properties-pii-info
-    message: Schema PII
-  - code: openapi-schema-required-info
-    message: Schema Required
-  - code: openapi-schema-names-camel-case-warn
-    message: Schema Name Camel Case
-  - code: openapi-schema-names-length-error
-    message: Schema Name Length
-  - code: openapi-schema-names-snake-case-warn
-    message: Schema Name Snake Case
-  - code: openapi-schema-required-error
-    message: Schema Required
-  - code: openapi-schema-type-info
-    message: Schema Type
-  - code: openapi-schema-description-info
-    message: Schemas has a description.
-  - code: openapi-schema-properties-format-error
-    message: Schema Properties Format
-  - code: openapi-schema-properties-names-camel-case-error
-    message: Schema Property Names Camel Case
-  - code: openapi-schema-properties-names-pascal-case-error
-    message: Schema Property Names Pascal Case
-  - code: openapi-schema-properties-nullable-error
-    message: Schema Properties Format
-  - code: openapi-schema-properties-type-error
-    message: Schema Properties Type
-  - code: openapi-schema-properties-pii-info
-    message: Schema PII
-  - code: openapi-schema-names-camel-case-warn
-    message: Schema Name Camel Case
-  - code: openapi-schema-names-length-error
-    message: Schema Name Length
-  - code: openapi-schema-names-snake-case-warn
-    message: Schema Name Snake Case
-  - code: openapi-schema-type-info
-    message: Schema Type
-  - code: openapi-schema-description-info
-    message: Schemas has a description.
-  - code: openapi-schema-properties-array-maxitems-error
-    message: Schema Property Array MaxItems
-  - code: openapi-schema-properties-array-maxitems-info
-    message: Schema Property Array MaxItems
-  - code: openapi-schema-properties-array-minitems-error
-    message: Schema Property Array MinItems
-  - code: openapi-schema-properties-format-error
-    message: Schema Properties Format
-  - code: openapi-schema-properties-names-pascal-case-error
-    message: Schema Property Names Pascal Case
-  - code: openapi-schema-properties-nullable-error
-    message: Schema Properties Format
-  - code: openapi-schema-properties-pii-info
-    message: Schema PII
-  - code: openapi-schema-properties-type-info
-    message: Schema Properties Type
-  - code: openapi-schema-properties-array-items-info
-    message: Schema Property Array Items
-  - code: invalid-ref
-    message: '''#/components/schemas/CraPartnerInsights'' does not exist'
-  - code: openapi-schema-properties-format-error
-    message: Schema Properties Format
-  - code: openapi-schema-properties-names-camel-case-error
-    message: Schema Property Names Camel Case
-  - code: openapi-schema-properties-names-pascal-case-error
-    message: Schema Property Names Pascal Case
-  - code: openapi-schema-properties-nullable-error
-    message: Schema Properties Format
-  - code: openapi-schema-properties-type-error
-    message: Schema Properties Type
-  - code: openapi-schema-properties-pii-info
-    message: Schema PII
-  - code: openapi-schema-required-info
-    message: Schema Required
-  - code: openapi-schema-names-camel-case-warn
-    message: Schema Name Camel Case
-  - code: openapi-schema-names-snake-case-warn
-    message: Schema Name Snake Case
-  - code: openapi-schema-description-info
-    message: Schemas has a description.
-  - code: openapi-schema-description-length-error
-    message: Description needs to be less than 250 characters.
-  - code: openapi-schema-type-info
-    message: Schema Type
-  - code: openapi-schema-properties-format-error
-    message: Schema Properties Format
-  - code: openapi-schema-properties-names-camel-case-error
-    message: Schema Property Names Camel Case
-  - code: openapi-schema-properties-names-pascal-case-error
-    message: Schema Property Names Pascal Case
-  - code: openapi-schema-properties-nullable-error
-    message: Schema Properties Format
-  - code: openapi-schema-properties-type-error
-    message: Schema Properties Type
-  - code: invalid-ref
-    message: '''#/components/schemas/PlaidErrorType'' does not exist'
-  - code: openapi-schema-properties-pii-info
-    message: Schema PII
-  - code: openapi-schema-properties-format-error
-    message: Schema Properties Format
-  - code: openapi-schema-properties-names-camel-case-error
-    message: Schema Property Names Camel Case
-  - code: openapi-schema-properties-names-pascal-case-error
-    message: Schema Property Names Pascal Case
-  - code: openapi-schema-properties-nullable-error
-    message: Schema Properties Format
-  - code: openapi-schema-properties-string-maxlength-error
-    message: Require schema property string maxlength.
-  - code: openapi-schema-properties-string-minlength-error
-    message: Require schema property string minlength.
-  - code: openapi-schema-properties-type-string-pattern-warn
-    message: Schema Property Type String Pattern
-  - code: openapi-schema-properties-descriptions-error
-    message: Schema Description
-  - code: openapi-schema-properties-descriptions-info
-    message: Schema Description
-  - code: openapi-schema-properties-pii-info
-    message: Schema PII
-  - code: openapi-schema-properties-pii-info
-    message: Schema PII
-  - code: openapi-schema-properties-type-info
-    message: Schema Properties Type
-  - code: openapi-schema-properties-format-error
-    message: Schema Properties Format
-  - code: openapi-schema-properties-names-camel-case-error
-    message: Schema Property Names Camel Case
-  - code: openapi-schema-properties-names-pascal-case-error
-    message: Schema Property Names Pascal Case
-  - code: openapi-schema-properties-nullable-error
-    message: Schema Properties Format
-  - code: openapi-schema-properties-string-maxlength-error
-    message: Require schema property string maxlength.
-  - code: openapi-schema-properties-string-minlength-error
-    message: Require schema property string minlength.
-  - code: openapi-schema-properties-type-string-pattern-warn
-    message: Schema Property Type String Pattern
-  - code: openapi-schema-properties-descriptions-error
-    message: Schema Description
-  - code: openapi-schema-properties-descriptions-info
-    message: Schema Description
-  - code: openapi-schema-properties-pii-info
-    message: Schema PII
-  - code: openapi-schema-properties-pii-info
-    message: Schema PII
-  - code: openapi-schema-properties-type-info
-    message: Schema Properties Type
-  - code: openapi-schema-properties-format-error
-    message: Schema Properties Format
-  - code: openapi-schema-properties-names-camel-case-error
-    message: Schema Property Names Camel Case
-  - code: openapi-schema-properties-names-pascal-case-error
-    message: Schema Property Names Pascal Case
-  - code: openapi-schema-properties-string-maxlength-error
-    message: Require schema property string maxlength.
-  - code: openapi-schema-properties-string-minlength-error
-    message: Require schema property string minlength.
-  - code: openapi-schema-properties-type-string-pattern-warn
-    message: Schema Property Type String Pattern
-  - code: openapi-schema-properties-descriptions-error
-    message: Schema Description
-  - code: openapi-schema-properties-descriptions-info
-    message: Schema Description
-  - code: openapi-schema-properties-pii-info
-    message: Schema PII
-  - code: openapi-schema-properties-pii-info
-    message: Schema PII
-  - code: openapi-schema-properties-type-info
-    message: Schema Properties Type
-  - code: openapi-schema-properties-nullable-info
-    message: Schema Properties Nullable
-  - code: openapi-schema-properties-pii-info
-    message: Schema PII
-  - code: openapi-schema-properties-format-error
-    message: Schema Properties Format
-  - code: openapi-schema-properties-names-camel-case-error
-    message: Schema Property Names Camel Case
-  - code: openapi-schema-properties-names-pascal-case-error
-    message: Schema Property Names Pascal Case
-  - code: openapi-schema-properties-nullable-error
-    message: Schema Properties Format
-  - code: openapi-schema-properties-string-maxlength-error
-    message: Require schema property string maxlength.
-  - code: openapi-schema-properties-string-minlength-error
-    message: Require schema property string minlength.
-  - code: openapi-schema-properties-type-string-pattern-warn
-    message: Schema Property Type String Pattern
-  - code: openapi-schema-properties-pii-info
-    message: Schema PII
-  - code: openapi-schema-properties-type-info
-    message: Schema Properties Type
-  - code: openapi-schema-properties-descriptions-error
-    message: Schema Description
-  - code: openapi-schema-properties-descriptions-info
-    message: Schema Description
-  - code: openapi-schema-properties-pii-info
-    message: Schema PII
-  - code: openapi-schema-properties-array-maxitems-error
-    message: Schema Property Array MaxItems
-  - code: openapi-schema-properties-array-maxitems-info
-    message: Schema Property Array MaxItems
-  - code: openapi-schema-properties-array-minitems-error
-    message: Schema Property Array MinItems
-  - code: openapi-schema-properties-format-error
-    message: Schema Properties Format
-  - code: openapi-schema-properties-names-pascal-case-error
-    message: Schema Property Names Pascal Case
-  - code: openapi-schema-properties-nullable-error
-    message: Schema Properties Format
-  - code: openapi-schema-properties-pii-info
-    message: Schema PII
-  - code: openapi-schema-properties-type-info
-    message: Schema Properties Type
-  - code: openapi-schema-properties-descriptions-error
-    message: Schema Description
-  - code: openapi-schema-properties-descriptions-info
-    message: Schema Description
-  - code: openapi-schema-properties-descriptions-length-error
-    message: Schema Description Length
-  - code: openapi-schema-properties-pii-info
-    message: Schema PII
-  - code: openapi-schema-properties-array-items-info
-    message: Schema Property Array Items
-  - code: openapi-schema-properties-format-error
-    message: Schema Properties Format
-  - code: openapi-schema-properties-names-pascal-case-error
-    message: Schema Property Names Pascal Case
-  - code: openapi-schema-properties-pii-info
-    message: Schema PII
-  - code: openapi-schema-properties-type-info
-    message: Schema Properties Type
-  - code: openapi-schema-properties-descriptions-error
-    message: Schema Description
-  - code: openapi-schema-properties-descriptions-info
-    message: Schema Description
-  - code: openapi-schema-properties-pii-info
-    message: Schema PII
-  - code: openapi-schema-properties-nullable-info
-    message: Schema Properties Nullable
-  - code: openapi-schema-properties-pii-info
-    message: Schema PII
-  - code: openapi-schema-properties-format-error
-    message: Schema Properties Format
-  - code: openapi-schema-properties-names-camel-case-error
-    message: Schema Property Names Camel Case
-  - code: openapi-schema-properties-names-pascal-case-error
-    message: Schema Property Names Pascal Case
-  - code: openapi-schema-properties-nullable-error
-    message: Schema Properties Format
-  - code: openapi-schema-properties-string-maxlength-error
-    message: Require schema property string maxlength.
-  - code: openapi-schema-properties-string-minlength-error
-    message: Require schema property string minlength.
-  - code: openapi-schema-properties-type-string-pattern-warn
-    message: Schema Property Type String Pattern
-  - code: openapi-schema-properties-pii-info
-    message: Schema PII
-  - code: openapi-schema-properties-type-info
-    message: Schema Properties Type
-  - code: openapi-schema-properties-descriptions-error
-    message: Schema Description
-  - code: openapi-schema-properties-descriptions-info
-    message: Schema Description
-  - code: openapi-schema-properties-pii-info
-    message: Schema PII
-  - code: openapi-schema-properties-format-error
-    message: Schema Properties Format
-  - code: openapi-schema-properties-names-camel-case-error
-    message: Schema Property Names Camel Case
-  - code: openapi-schema-properties-names-pascal-case-error
-    message: Schema Property Names Pascal Case
-  - code: openapi-schema-properties-string-maxlength-error
-    message: Require schema property string maxlength.
-  - code: openapi-schema-properties-string-minlength-error
-    message: Require schema property string minlength.
-  - code: openapi-schema-properties-type-string-pattern-warn
-    message: Schema Property Type String Pattern
-  - code: openapi-schema-properties-pii-info
-    message: Schema PII
-  - code: openapi-schema-properties-type-info
-    message: Schema Properties Type
-  - code: openapi-schema-properties-nullable-info
-    message: Schema Properties Nullable
-  - code: openapi-schema-properties-pii-info
-    message: Schema PII
-  - code: openapi-schema-properties-descriptions-error
-    message: Schema Description
-  - code: openapi-schema-properties-descriptions-info
-    message: Schema Description
-  - code: openapi-schema-properties-pii-info
-    message: Schema PII
-  - code: openapi-schema-required-info
-    message: Schema Required
-  - code: openapi-schema-names-camel-case-warn
-    message: Schema Name Camel Case
-  - code: openapi-schema-names-length-error
-    message: Schema Name Length
-  - code: openapi-schema-names-snake-case-warn
-    message: Schema Name Snake Case
-  - code: openapi-schema-type-info
-    message: Schema Type
-  - code: openapi-schema-description-info
-    message: Schemas has a description.
-  - code: openapi-schema-properties-format-error
-    message: Schema Properties Format
-  - code: openapi-schema-properties-names-camel-case-error
-    message: Schema Property Names Camel Case
-  - code: openapi-schema-properties-names-pascal-case-error
-    message: Schema Property Names Pascal Case
-  - code: openapi-schema-properties-nullable-error
-    message: Schema Properties Format
-  - code: openapi-schema-properties-type-error
-    message: Schema Properties Type
-  - code: openapi-schema-properties-pii-info
-    message: Schema PII
-  - code: openapi-schema-required-info
-    message: Schema Required
-  - code: openapi-schema-names-camel-case-warn
-    message: Schema Name Camel Case
-  - code: openapi-schema-names-snake-case-warn
-    message: Schema Name Snake Case
-  - code: openapi-schema-type-info
-    message: Schema Type
-  - code: openapi-schema-description-info
-    message: Schemas has a description.
-  - code: openapi-schema-properties-format-error
-    message: Schema Properties Format
-  - code: openapi-schema-properties-names-camel-case-error
-    message: Schema Property Names Camel Case
-  - code: openapi-schema-properties-names-pascal-case-error
-    message: Schema Property Names Pascal Case
-  - code: openapi-schema-properties-nullable-error
-    message: Schema Properties Format
-  - code: openapi-schema-properties-type-error
-    message: Schema Properties Type
-  - code: openapi-schema-properties-pii-info
-    message: Schema PII
-  - code: openapi-schema-required-info
-    message: Schema Required
-  - code: openapi-schema-names-camel-case-warn
-    message: Schema Name Camel Case
-  - code: openapi-schema-names-snake-case-warn
-    message: Schema Name Snake Case
-  - code: openapi-schema-type-info
-    message: Schema Type
-  - code: openapi-schema-description-info
-    message: Schemas has a description.
-  - code: openapi-schema-properties-format-error
-    message: Schema Properties Format
-  - code: openapi-schema-properties-names-camel-case-error
-    message: Schema Property Names Camel Case
-  - code: openapi-schema-properties-names-pascal-case-error
-    message: Schema Property Names Pascal Case
-  - code: openapi-schema-properties-nullable-error
-    message: Schema Properties Format
-  - code: openapi-schema-properties-type-error
-    message: Schema Properties Type
-  - code: openapi-schema-properties-pii-info
-    message: Schema PII
-  - code: openapi-schema-required-info
-    message: Schema Required
-  - code: openapi-schema-names-camel-case-warn
-    message: Schema Name Camel Case
-  - code: openapi-schema-names-snake-case-warn
-    message: Schema Name Snake Case
-  - code: openapi-schema-type-info
-    message: Schema Type
-  - code: openapi-schema-description-info
-    message: Schemas has a description.
-  - code: openapi-schema-properties-format-error
-    message: Schema Properties Format
-  - code: openapi-schema-properties-names-camel-case-error
-    message: Schema Property Names Camel Case
-  - code: openapi-schema-properties-names-pascal-case-error
-    message: Schema Property Names Pascal Case
-  - code: openapi-schema-properties-nullable-error
-    message: Schema Properties Format
-  - code: openapi-schema-properties-type-error
-    message: Schema Properties Type
-  - code: openapi-schema-properties-pii-info
-    message: Schema PII
-  - code: openapi-schema-required-info
-    message: Schema Required

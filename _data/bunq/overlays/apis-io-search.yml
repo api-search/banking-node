@@ -10,30 +10,6 @@ modified: 2023/11/13
 specificationVersion: '0.16'
 tags: []
 apis:
-  - name: Bunq API
-    description: >-
-      We offer mobile banking that makes life easy—wherever, whenever. Join us
-      and discover a simple, sustainable, and user-centered way of banking that
-      makes everyday finances 100% hassle-free.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://doc.bunq.com/
-    baseURL: https://api.example.com
-    tags: []
-    properties:
-      - type: Documentation
-        url: https://doc.bunq.com/
-      - type: OpenAPI
-        url: properties/bunq-openapi-original.yml
-    contact:
-      - FN: Name
-        url: http://example.com
-        email: info@example.com
-    overlays:
-      - type: API Evangelist Ratings
-        url: overlays/bunq-openapi-api-evangelist-ratings.yml
-      - type: APIs.io Search
-        url: overlays/bunq-openapi-search.yml
-    aid: bunq:bunq-api
   - name: Bunq Activity Map Place API
     description: Managing activity map for a user account.
     tags: []

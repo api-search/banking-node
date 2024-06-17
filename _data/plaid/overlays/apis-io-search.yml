@@ -73,7 +73,7 @@ apis:
       - type: API Evangelist Ratings
         url: overlays/plaid-cra--openapi-api-evangelist-ratings.yml
     humanURL: https://plaid.com/docs/check/api/
-    score: 459
+    score: 213
     baseURL: https://production.plaid.com
   - name: Plaid Consumer Report API
     description: >-
@@ -275,33 +275,65 @@ apis:
     baseURL: https://production.plaid.com
     score: 208
   - name: Plaid Categories API
-    description: Needs description.
+    description: >-
+      To access detailed information on categories returned by Plaid, simply
+      make a request to the /categories/get endpoint of the API.
     tags: []
     properties:
       - type: OpenAPI
         url: properties/plaid-categories--openapi-original.yml
+      - type: Documentation
+        url: https://plaid.com/docs/api/products/transactions/
     overlays:
       - type: OpenAPI
         url: overlays/plaid-categories--openapi-search.yml
+      - type: API Evangelist Ratings
+        url: overlays/plaid-categories--openapi-api-evangelist-ratings.yml
+    humanURL: https://plaid.com/docs/api/products/transactions/#categoriesget
+    baseURL: https://production.plaid.com
+    score: 44
   - name: Plaid Sandbox API
-    description: Needs description.
+    description: >-
+      The Plaid Sandbox is a free and fully-featured environment for application
+      development and testing. All Plaid functionality of both the Plaid API and
+      Plaid Link is supported in the Sandbox environment. 
     tags: []
     properties:
       - type: OpenAPI
         url: properties/plaid-sandbox--openapi-original.yml
+      - type: Documentation
+        url: https://plaid.com/docs/sandbox/
     overlays:
       - type: OpenAPI
         url: overlays/plaid-sandbox--openapi-search.yml
+      - type: API Evangelist Ratings
+        url: overlays/plaid-sandbox--openapi-api-evangelist-ratings.yml
+    humanURL: https://plaid.com/docs/sandbox/
+    score: 635
+    baseURL: https://production.plaid.com
   - name: Plaid Accounts API
-    description: Needs description.
-    tags: []
+    description: >-
+      API reference for retrieving account information and seeing all possible
+      account types and subtypes
+    tags:
+      - Accounts
+      - Balance
+      - Data
+      - Real Time
     properties:
       - type: OpenAPI
         url: properties/plaid-accounts--openapi-original.yml
+      - type: Documentation
+        url: https://plaid.com/docs/api/accounts/
     overlays:
       - type: OpenAPI
         url: overlays/plaid-accounts--openapi-search.yml
-  - name: Plaid Entity API
+      - type: API Evangelist Ratings
+        url: overlays/plaid-accounts--openapi-api-evangelist-ratings.yml
+    humanURL: https://plaid.com/docs/api/accounts/
+    score: 66
+    baseURL: https://production.plaid.com
+  - name: Plaid Entity API - DELETE
     description: Needs description.
     tags: []
     properties:
@@ -311,23 +343,44 @@ apis:
       - type: OpenAPI
         url: overlays/plaid-identity--openapi-search.yml
   - name: Plaid Dashboard User API
-    description: Needs description.
-    tags: []
+    description: >-
+      The Plaid Dashboard Activity Log shows the past 14 days of API activity.
+      Using the dashboard, you can see a record of all requests and responses,
+      as well as all webhooks sent by the Plaid API, and all Link events.
+    tags:
+      - Dashboard
+      - Users
     properties:
       - type: OpenAPI
         url: properties/plaid-dashboard-user--openapi-original.yml
+      - type: Documentation
+        url: https://plaid.com/docs/account/activity/
     overlays:
       - type: OpenAPI
         url: overlays/plaid-dashboard-user--openapi-search.yml
+    humanURL: https://plaid.com/docs/account/activity/
+    baseURL: https://production.plaid.com
   - name: Plaid Entity Verification API
-    description: Needs description.
-    tags: []
+    description: API reference for Identity Verification endpoints and webhooks.
+    tags:
+      - Entities
+      - Identity
+      - Verification
+      - Verifications
+      - Retry
+      - Autofill
     properties:
       - type: OpenAPI
         url: properties/plaid-identity-verification--openapi-original.yml
     overlays:
       - type: OpenAPI
         url: overlays/plaid-identity-verification--openapi-search.yml
+      - type: API Evangelist Ratings
+        url: >-
+          overlays/plaid-identity-verification--openapi-api-evangelist-ratings.yml
+    humanURL: https://plaid.com/docs/api/products/identity-verification/
+    score: 122
+    baseURL: https://production.plaid.com
   - name: Plaid Watchlist Screening API
     description: Needs description.
     tags: []

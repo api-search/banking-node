@@ -1,4 +1,4 @@
-weekNumber: 24
+weekNumber: 25
 rule:
   - code: openapi-external-docs-error
     message: External Docs

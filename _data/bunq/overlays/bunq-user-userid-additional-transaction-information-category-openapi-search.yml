@@ -41,7 +41,7 @@ paths:
         - Information
         - Transactions
         - Users
-      summary: Retrieve Transaction Information Category
+      summary: Retrieve User User Id Additional Transaction Information Category
       operationId: List_all_AdditionalTransactionInformationCategory_for_User
       description: Get the available categories.
       parameters:
@@ -86,7 +86,9 @@ paths:
         - Information
         - Transactions
         - Users
-      summary: Create Transaction Information Category
+      summary: >-
+        Create User User Id Additional Transaction Information Category User
+        Defined
       operationId: CREATE_AdditionalTransactionInformationCategoryUserDefined_for_User
       description: Manage user-defined categories.
       parameters:

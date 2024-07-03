@@ -23,5 +23,46 @@ servers:
         default: v1
 components:
   schemas: {}
-paths: {}
+paths:
+  /activity-map-place-public/{itemId}:
+    get:
+      tags:
+        - Activity
+        - Items
+        - Maps
+        - Places
+        - Public
+      summary: Retrieve Activity Map Place Public Item Id
+      operationId: READ_ActivityMapPlacePublic
+      description: Public endpoint for getting the place info.
+      parameters:
+        - in: path
+          name: itemId
+          description: ''
+          required: true
+          schema:
+            type: integer
+        - $ref: '#/components/parameters/Cache-Control'
+        - $ref: '#/components/parameters/User-Agent'
+        - $ref: '#/components/parameters/X-Bunq-Language'
+        - $ref: '#/components/parameters/X-Bunq-Region'
+        - $ref: '#/components/parameters/X-Bunq-Client-Request-Id'
+        - $ref: '#/components/parameters/X-Bunq-Geolocation'
+        - $ref: '#/components/parameters/X-Bunq-Client-Authentication'
+      responses:
+        '200':
+          description: Public endpoint for getting the place info.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ActivityMapPlacePublicRead'
+          headers:
+            X-Bunq-Client-Response-Id:
+              $ref: '#/components/headers/X-Bunq-Client-Response-Id'
+            X-Bunq-Client-Request-Id:
+              $ref: '#/components/headers/X-Bunq-Client-Request-Id'
+            X-Bunq-Server-Signature:
+              $ref: '#/components/headers/X-Bunq-Server-Signature'
+        '400':
+          $ref: '#/components/responses/GenericError'
 tags: []

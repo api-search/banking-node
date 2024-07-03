@@ -154,8 +154,11 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/bunq-avatar--openapi-search.yml
+      - type: API Evangelist Ratings
+        url: overlays/bunq-avatar--openapi-api-evangelist-ratings.yml
     humanURL: https://doc.bunq.com/#/avatar
     aid: bunq:bunq-avatar-api
+    score: 86
   - name: Bunq Billing Contract Subscription API
     description: Manage all subscription billing contract for the authenticated user.
     tags:
@@ -212,8 +215,12 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/bunq-user-userid-oauth-client-openapi-search.yml
+      - type: API Evangelist Ratings
+        url: >-
+          overlays/bunq-user-userid-oauth-client-openapi-api-evangelist-ratings.yml
     humanURL: https://doc.bunq.com/#/
     aid: bunq:bunq-oauth-client-api
+    score: 696
   - name: Bunq Card API
     description: Managing cards and transactions made via cards.
     tags:
@@ -256,8 +263,12 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/bunq-user-userid-certificate-pinned-openapi-search.yml
+      - type: API Evangelist Ratings
+        url: >-
+          overlays/bunq-user-userid-certificate-pinned-openapi-api-evangelist-ratings.yml
     humanURL: https://doc.bunq.com/#/certificate-pinned
     aid: bunq:bunq-certificate-pinning-api
+    score: 292
   - name: Bunq Challenge Request API
     description: Managing the challenge requests for a user.
     tags:
@@ -272,8 +283,12 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/bunq-user-userid-challenge-request-openapi-search.yml
+      - type: API Evangelist Ratings
+        url: >-
+          overlays/bunq-user-userid-challenge-request-openapi-api-evangelist-ratings.yml
     humanURL: https://doc.bunq.com/#/challenge-request
     aid: bunq:bunq-challenge-request-api
+    score: 168
   - name: Bunq Company API
     description: Managing details of an accounts company information.
     tags:
@@ -288,8 +303,11 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/bunq-user-userid-company-openapi-search.yml
+      - type: API Evangelist Ratings
+        url: overlays/bunq-user-userid-company-openapi-api-evangelist-ratings.yml
     humanURL: https://doc.bunq.com/#/company
     aid: bunq:bunq-company-api
+    score: 299
   - name: Bunq Confirmation Of Funds API
     description: Used to confirm availability of funds on an account.
     tags:
@@ -304,9 +322,13 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/bunq-user-userid-confirmation-of-funds-openapi-search.yml
+      - type: API Evangelist Ratings
+        url: >-
+          overlays/bunq-user-userid-confirmation-of-funds-openapi-api-evangelist-ratings.yml
     humanURL: >-
       https://doc.bunq.com/#/confirmation-of-funds/CREATE_ConfirmationOfFunds_for_User
     aid: bunq:bunq-confirmation-of-funds-api
+    score: 85
   - name: Bunq Chat Conversation API
     description: Managing the chat conversations for a user account.
     tags:
@@ -323,9 +345,13 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/bunq-user-userid-chat-conversation-openapi-search.yml
+      - type: API Evangelist Ratings
+        url: >-
+          overlays/bunq-user-userid-chat-conversation-openapi-api-evangelist-ratings.yml
     humanURL: >-
       https://doc.bunq.com/#/content/List_all_Content_for_User_ChatConversation_Attachment
     aid: bunq:bunq-chat-conversation-api
+    score: 106
   - name: Bunq Attachment Content API
     description: Used to manage the attachment content for an A/PI.
     tags:
@@ -342,8 +368,12 @@ apis:
       - type: OpenAPI
         url: >-
           overlays/bunq-attachment-public-attachment-publicuuid-content-openapi-search.yml
+      - type: API Evangelist Ratings
+        url: >-
+          overlays/bunq-attachment-public-attachment-publicuuid-content-openapi-api-evangelist-ratings.yml
     humanURL: https://doc.bunq.com/#/content
     aid: bunq:bunq-attachment-content-api
+    score: 87
   - name: Bunq Export Annual Overview API
     description: Used to retrieve the raw content of an annual overview.
     tags:
@@ -362,9 +392,13 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/bunq-user-userid-export-annual-overview-openapi-search.yml
+      - type: API Evangelist Ratings
+        url: >-
+          overlays/bunq-user-userid-export-annual-overview-openapi-api-evangelist-ratings.yml
     humanURL: >-
       https://doc.bunq.com/#/content/List_all_Content_for_User_ExportAnnualOverview
     aid: bunq:bunq-export-annual-overview-api
+    score: 370
   - name: Bunq User Credential Password Ip API
     description: Needs description.
     tags:
@@ -380,7 +414,11 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/bunq-user-userid-credential-password-ip-openapi-search.yml
+      - type: API Evangelist Ratings
+        url: >-
+          overlays/bunq-user-userid-credential-password-ip-openapi-api-evangelist-ratings.yml
     aid: bunq:bunq-user-credential-password-ip-api
+    score: 484
   - name: Bunq User Currency Cloud Beneficiary API
     description: Needs description.
     tags: []
@@ -392,7 +430,11 @@ apis:
       - type: OpenAPI
         url: >-
           overlays/bunq-user-userid-currency-cloud-beneficiary-openapi-search.yml
+      - type: API Evangelist Ratings
+        url: >-
+          overlays/bunq-user-userid-currency-cloud-beneficiary-openapi-api-evangelist-ratings.yml
     aid: bunq:bunq-user-currency-cloud-beneficiary-api
+    score: 294
   - name: Bunq Device API
     description: Needs description.
     tags:
@@ -404,7 +446,10 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/bunq-device--openapi-search.yml
+      - type: API Evangelist Ratings
+        url: overlays/bunq-device--openapi-api-evangelist-ratings.yml
     aid: bunq:bunq-device-api
+    score: 85
   - name: Bunq Device Server API
     description: Needs description.
     tags:
@@ -417,7 +462,10 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/bunq-device-server--openapi-search.yml
+      - type: API Evangelist Ratings
+        url: overlays/bunq-device-server--openapi-api-evangelist-ratings.yml
     aid: bunq:bunq-device-server-api
+    score: 85
   - name: Bunq User Event API
     description: Needs description.
     tags:
@@ -430,7 +478,10 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/bunq-user-userid-event-openapi-search.yml
+      - type: API Evangelist Ratings
+        url: overlays/bunq-user-userid-event-openapi-api-evangelist-ratings.yml
     aid: bunq:bunq-user-event-api
+    score: 164
   - name: Bunq User Feature Announcement API
     description: Needs description.
     tags:
@@ -444,7 +495,11 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/bunq-user-userid-feature-announcement-openapi-search.yml
+      - type: API Evangelist Ratings
+        url: >-
+          overlays/bunq-user-userid-feature-announcement-openapi-api-evangelist-ratings.yml
     aid: bunq:bunq-user-feature-announcement-api
+    score: 95
   - name: Bunq User Insight Preference Date API
     description: Needs description.
     tags:
@@ -459,7 +514,11 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/bunq-user-userid-insight-preference-date-openapi-search.yml
+      - type: API Evangelist Ratings
+        url: >-
+          overlays/bunq-user-userid-insight-preference-date-openapi-api-evangelist-ratings.yml
     aid: bunq:bunq-user-insight-preference-date-api
+    score: 86
   - name: Bunq User Insights API
     description: Needs description.
     tags:
@@ -472,7 +531,10 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/bunq-user-userid-insights-openapi-search.yml
+      - type: API Evangelist Ratings
+        url: overlays/bunq-user-userid-insights-openapi-api-evangelist-ratings.yml
     aid: bunq:bunq-user-insights-api
+    score: 154
   - name: Bunq Installation API
     description: Needs description.
     tags:
@@ -487,7 +549,10 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/bunq-installation--openapi-search.yml
+      - type: API Evangelist Ratings
+        url: overlays/bunq-installation--openapi-api-evangelist-ratings.yml
     aid: bunq:bunq-installation-api
+    score: 153
   - name: Bunq User Invoice API
     description: Needs description.
     tags:
@@ -502,7 +567,10 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/bunq-user-userid-invoice-openapi-search.yml
+      - type: API Evangelist Ratings
+        url: overlays/bunq-user-userid-invoice-openapi-api-evangelist-ratings.yml
     aid: bunq:bunq-user-invoice-api
+    score: 241
   - name: Bunq User Legal Name API
     description: Needs description.
     tags:
@@ -515,7 +583,11 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/bunq-user-userid-legal-name-openapi-search.yml
+      - type: API Evangelist Ratings
+        url: >-
+          overlays/bunq-user-userid-legal-name-openapi-api-evangelist-ratings.yml
     aid: bunq:bunq-user-legal-name-api
+    score: 86
   - name: Bunq User Limit API
     description: Needs description.
     tags:
@@ -527,7 +599,10 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/bunq-user-userid-limit-openapi-search.yml
+      - type: API Evangelist Ratings
+        url: overlays/bunq-user-userid-limit-openapi-api-evangelist-ratings.yml
     aid: bunq:bunq-user-limit-api
+    score: 86
   - name: Bunq User Monetary Account Bank API
     description: Needs description.
     tags:
@@ -542,7 +617,11 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/bunq-user-userid-monetary-account-bank-openapi-search.yml
+      - type: API Evangelist Ratings
+        url: >-
+          overlays/bunq-user-userid-monetary-account-bank-openapi-api-evangelist-ratings.yml
     aid: bunq:bunq-user-monetary-account-bank-api
+    score: 299
   - name: Bunq User Monetary Account Card API
     description: Needs description.
     tags:
@@ -557,7 +636,11 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/bunq-user-userid-monetary-account-card-openapi-search.yml
+      - type: API Evangelist Ratings
+        url: >-
+          overlays/bunq-user-userid-monetary-account-card-openapi-api-evangelist-ratings.yml
     aid: bunq:bunq-user-monetary-account-card-api
+    score: 236
   - name: Bunq User Monetary Account External API
     description: Needs description.
     tags:

@@ -657,7 +657,12 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/bunq-user-userid-monetary-account-external-openapi-search.yml
+      - type: API Evangelist Ratings
+        url: >-
+          overlays/bunq-user-userid-monetary-account-external-openapi-api-evangelist-ratings.yml
     aid: bunq:bunq-user-monetary-account-external-api
+    humanURL: https://doc.bunq.com/#/monetary-account-external
+    score: 580
   - name: Bunq User Monetary Account Joint API
     description: Needs description.
     tags:
@@ -673,7 +678,11 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/bunq-user-userid-monetary-account-joint-openapi-search.yml
+      - type: API Evangelist Ratings
+        url: >-
+          overlays/bunq-user-userid-monetary-account-joint-openapi-api-evangelist-ratings.yml
     aid: bunq:bunq-user-monetary-account-joint-api
+    score: 300
   - name: Bunq User Monetary Account Savings API
     description: Needs description.
     tags:
@@ -689,7 +698,11 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/bunq-user-userid-monetary-account-savings-openapi-search.yml
+      - type: API Evangelist Ratings
+        url: >-
+          overlays/bunq-user-userid-monetary-account-savings-openapi-api-evangelist-ratings.yml
     aid: bunq:bunq-user-monetary-account-savings-api
+    score: 301
   - name: Bunq User Company User Company Name API
     description: Needs description.
     tags:

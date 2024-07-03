@@ -9,7 +9,8 @@ url: https://raw.githubusercontent.com/apis-search/banking/main/apis/plaid/apis.
 created: '2024-07-07T00:00:00.000Z'
 modified: '2024-07-07T00:00:00.000Z'
 specificationVersion: '0.16'
-tags: []
+tags:
+  - Banking
 apis:
   - name: Plaid Asset Report API
     description: >-

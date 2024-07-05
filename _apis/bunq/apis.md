@@ -5,7 +5,7 @@ description: >-
   discover a simple, sustainable, and user-centered way of banking that makes
   everyday finances 100% hassle-free.
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-url: https://raw.githubusercontent.com/apis-json/artisanal/main/apis/bunq.yml
+url: https://raw.githubusercontent.com/api-search/banking/main/_apis/bunq/apis.md
 created: 2023/11/13
 modified: 2023/11/13
 specificationVersion: '0.16'

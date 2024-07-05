@@ -6,7 +6,7 @@ description: >-
   intelligent tools that give everyone the ability to create amazing products
   that solve big problems.
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-url: https://raw.githubusercontent.com/apis-search/banking/main/apis/plaid/apis.md
+url: https://raw.githubusercontent.com/api-search/banking/main/_apis/plaid/apis.md
 created: '2024-07-07T00:00:00.000Z'
 modified: '2024-07-07T00:00:00.000Z'
 specificationVersion: '0.16'

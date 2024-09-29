@@ -1,3 +1,4 @@
+---
 name: Plaid
 description: >-
   Plaid is focused on democratizing financial services through technology. We
@@ -1230,3 +1231,4 @@ overlays:
     url: /overlays/api-evangelist-ratings.yml
 aid: plaid
 score: 1200
+---
